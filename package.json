@@ -13,7 +13,7 @@
         "deploy:production": "cross-env NODE_ENV=production bash ./deploy.production.sh"
     },
     "dependencies": {
-        "@ant-design/icons": "^4.2.2",
+        "@ant-design/icons": "^4.7.0",
         "@ant-design/plots": "^1.0.9",
         "@apollo/client": "^3.3.17",
         "@ckeditor/ckeditor5-react": "^5.0.0",

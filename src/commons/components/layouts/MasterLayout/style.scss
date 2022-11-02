@@ -1,87 +1,65 @@
 .master-layout {
-  $header-height: 120px;
-  $content-height: calc(100vh - 95px);
-  $bg_sidebar: #2c3a57;
   background-color: #f8f8f8;
-  .trigger {
-    font-size: 22px;
-    line-height: $header-height;
-    padding: 0 20px;
-    margin-top: 6px;
-    cursor: pointer;
-    transition: color 0.3s;
-    &:hover {
-      color: #1890ff;
-    }
-  }
-  .logo {
-    height: 100%;
-    padding: 0px 16px;
-    // border-bottom: 2px solid #e6e1e1d0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .img-logo {
-    max-width: calc(218px);
-  }
-  .bg-white {
-    background-color: #fff;
-  }
-  .master-layout {
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  .left-menu {
-    .ant-menu-item:first-child {
-      margin-top: 0;
-    }
-    .ant-menu-item {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      height: 54px;
-      margin-bottom: 0;
-      font-size: 18px;
-    }
-  }
   .master-header {
     height: 95px;
     border-bottom: 1px solid #222e4a1a;
     box-shadow: 0px 3px 10px #222e4a1a;
+    background-color: #f8f8f8;
+
     z-index: 2;
-    header {
-      // border-bottom: solid 3px rgba(#000, 0.13);
-      opacity: 1;
+    .header {
       padding: 0px;
-      .title_page {
-        font-size: 28px;
-        font-weight: bold;
+      height: 100%;
+      background-color: #f8f8f8;
+
+      display: flex;
+      font-size: 18px;
+      justify-content: space-between;
+      color: black;
+      .menu_fold {
+        display: flex;
+        align-items: center;
+      }
+      .menu_settings {
+        padding-right: 3%;
+        display: flex;
+        align-items: center;
       }
     }
-    .master-sider {
-      background-color: $bg_sidebar;
+    .logo {
+      height: 100%;
+      padding: 0px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .img-logo {
+        max-width: calc(218px);
+      }
     }
     .content-header-nvg {
       overflow-x: visible;
       height: 100%;
     }
   }
-  .master-content {
-    height: $content-height;
-    .master-sider {
-      background-color: $bg_sidebar;
-    }
-    .ant-layout-sider-collapsed {
-      .ant-menu-title-content {
-        opacity: 0;
+}
+.master-content {
+  height: 100%;
+  .left_menu {
+    height: 100%;
+    .name_footer {
+      font-weight: 600;
+      font-size: 16px;
+      border-top: 1px solid white;
+      margin-top: 220px;
+      .name_footer_1 {
+        color: red;
+      }
+      .name_footer_3 {
+        font-size: 14px;
       }
     }
   }
 }
-
-@media only screen and (max-width: 768px) {
-  .master-layout .master-sider {
-    display: block;
-  }
+.ant-menu-item-selected {
+  background: red !important;
 }

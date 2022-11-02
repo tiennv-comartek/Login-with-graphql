@@ -1,11 +1,11 @@
-import { Button, Card, Checkbox, Col, Dropdown, Form, Image, Input, Layout, Menu, Row, Space } from 'antd';
-import React from 'react';
+import { LoginInput } from '@/graphql/generated/graphql';
 import loginImg from '@assets/images/banner.png';
 import logo1 from '@assets/images/logo1.png';
 import useLogin from '@modules/Auth/hooks/useLogin';
+import { Button, Card, Checkbox, Col, Dropdown, Form, Image, Input, Layout, Menu, Row, Space } from 'antd';
 import 'antd/dist/antd.css';
+import React from 'react';
 import './style.scss';
-import { LoginInput } from '@/graphql/generated/graphql';
 
 const menu = <Menu />;
 

@@ -1,0 +1,32 @@
+$primary-color: #f80000;
+$green-color: #09b530;
+$primary-bg: #fcfcfd;
+$second-primary-color: #2c3a57;
+
+.color-red {
+  color: $primary-color;
+}
+
+.color-green {
+  color: #09b530;
+}
+
+.color-gray1 {
+  color: #707070;
+}
+
+.color-table-text {
+  color: #393939;
+}
+
+.color-blue {
+  color: #0072f8;
+}
+
+.color-link {
+  color: #0089ff !important;
+}
+
+.bg-primary-cms {
+  background: $primary-bg;
+}

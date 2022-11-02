@@ -1,0 +1,27 @@
+{
+  "general_setting": {
+    "GENERAL_SETTINGS": "Generelle Innstillinger",
+    "HEADER_SETTINGS": "OVERSKRIFTINNSTILLINGER",
+    "Confirm-online-payment": "Bekreft online betaling",
+    "Chatbox": "Chatteboks",
+    "Review-on-website": "Anmeldelse på nettsiden",
+    "Payment-by-invoice": "Betaling med faktura",
+    "Download-order-on-website": "Last ned bestilling på nettsiden",
+    "Powered-by-WebShop-Nail": "Drevet av WebShop Nail",
+    "Shop-address-settings": "Butikkadresseinnstillinger",
+    "Configure-employees-who-receive-order-information-to-pay-by-invoice": "Konfigurer ansatte som mottar ordreinformasjon til å betale med faktura",
+    "Background": "Bakgrunn",
+    "Reset": "Nullstille",
+    "Text-Color": "Tekstfarge",
+    "Button-Color": "Knappefarge",
+    "Active": "Aktiv",
+    "GENERAL": "GENERELL",
+    "SETTINGS": "INNSTILLINGER",
+    "COLOR": "FARGE",
+    "Upload_Logo_Header": "Last opp logooverskrift",
+    "Upload_Logo_Footer": "Last opp logobunntekstr",
+    "Upload_Favicon": "Last opp favorittikon",
+    "Footer_Description": "Last opp favorittikon",
+    "Meta_Description": "Metabeskrivelse"
+  }
+}

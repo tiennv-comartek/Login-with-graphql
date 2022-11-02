@@ -1,0 +1,27 @@
+{
+  "general_setting": {
+    "GENERAL_SETTINGS": "Cài đặt chung",
+    "HEADER_SETTINGS": "CÀI ĐẶT HEADER",
+    "Confirm-online-payment": "Xác nhận thanh toán trực tuyến",
+    "Chatbox": "Hộp trò chuyện",
+    "Review-on-website": "Đánh giá trên trang web",
+    "Payment-by-invoice": "Thanh toán bằng hóa đơn",
+    "Download-order-on-website": "Tải xuống đơn đặt hàng trên trang web",
+    "Powered-by-WebShop-Nail": "Cung cấp bởi WebShop Nail",
+    "Shop-address-settings": "Cài đặt địa chỉ cửa hàng",
+    "Configure-employees-who-receive-order-information-to-pay-by-invoice": "Cấu hình nhân viên nhận thông tin đơn hàng để thanh toán bằng hóa đơn",
+    "Background": "Màu nền",
+    "Reset": "Cài lại",
+    "Text-Color": "Màu Chữ",
+    "Button-Color": "Màu Nút ",
+    "Active": "Màu Active",
+    "GENERAL": "CHUNG",
+    "SETTINGS": "CÀI ĐẶT",
+    "COLOR": "MÀU",
+    "Upload_Logo_Header": "Tải lên tiêu đề biểu trưng",
+    "Upload_Logo_Footer": "Tải lên chân trang biểu trưng",
+    "Upload_Favicon": "Tải lên Favicon",
+    "Footer_Description": "Mô tả chân trang",
+    "Meta_Description": "Mô tả meta"
+  }
+}

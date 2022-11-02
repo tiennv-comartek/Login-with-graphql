@@ -1,0 +1,27 @@
+{
+  "general_setting": {
+    "GENERAL_SETTINGS": "General Settings",
+    "HEADER_SETTINGS": "HEADER SETTINGS",
+    "Confirm-online-payment": "Confirm online payment",
+    "Chatbox": "Chatbox",
+    "Review-on-website": "Review on website",
+    "Payment-by-invoice": "Payment by invoice",
+    "Download-order-on-website": "Download order on website",
+    "Powered-by-WebShop-Nail": "Powered by WebShop Nail",
+    "Shop-address-settings": "Shop address settings",
+    "Configure-employees-who-receive-order-information-to-pay-by-invoice": "Configure employees who receive order information to pay by invoice",
+    "Background": "Background",
+    "Reset": "Reset",
+    "Text-Color": "Text Color",
+    "Button-Color": "Button Color",
+    "Active": "Active",
+    "GENERAL": "GENERAL",
+    "SETTINGS": "SETTINGS",
+    "COLOR": "COLOR",
+    "Upload_Logo_Header": "Upload Logo Header",
+    "Upload_Logo_Footer": "Upload Logo Footer",
+    "Upload_Favicon": "Upload Favicon",
+    "Footer_Description": "Footer Description",
+    "Meta_Description": "Meta Description"
+  }
+}

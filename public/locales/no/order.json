@@ -1,0 +1,58 @@
+{
+  "title": "Bestillinger",
+  "confirm": "Bekreftet",
+  "name_not_found": "Finner ikke kundenavnet",
+  "method_not_found": "Finner ikke leveringsmetode",
+  "confirmed": "Bekreftet",
+  "delivery": "Leveranse",
+  "done": "Ferdig",
+  "something_wrong": "Finner ikke leveringsmetode",
+  "cancel_order": "Avbryt bestillingen",
+  "filter": {
+    "orderNumber": "Ordrenummer",
+    "paymentMethod": "Velg betalingsmåte",
+    "paymentStatus": "Velg status",
+    "search": "Søk"
+  },
+  "table": {
+    "orderNumber": "Ordrenummer",
+    "customer": "Kunde",
+    "phone": "Telefon",
+    "paymentMethod": "Betalingsmåte",
+    "orderTime": "Bestillingstid",
+    "orderTotal": "Bestilling totalt (NOK)",
+    "status": "Status",
+    "action": "Handling"
+  },
+  "detail": {
+    "title": "Bestillingsdetaljer",
+    "draft": "Utkast",
+    "pending": "Venter",
+    "confirmed": "Bekreftet",
+    "delivery": "Leveranse",
+    "cancelled": "Avbrutt",
+    "done": "Ferdig",
+    "orderNumber": "Ordrenummer",
+    "customerInformation": "Kundeinformasjon",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "paymentMethod": "Betalingsmetode",
+    "paymentStatus": "Betalingsstatus",
+    "deliveryMethod": "Leveringsmetode",
+    "shippingFee": "Fraktgebyr",
+    "estimatedDelivery": "Estimert levering",
+    "image": "Bilde",
+    "productName": "Navn",
+    "quantity": "Mengde",
+    "unitPrice": "Enhetspris (NOK)",
+    "total": "Totalt (NOK)",
+    "subtotal": "Delsum",
+    "changeStatus": "Endre status",
+    "pickUpAtStore": "Hente i butikk"
+  },
+  "print": {
+    "sales-receipt": "Salskvittering",
+    "qty-des": "QTY Beskrivelse",
+    "total": "Totalt"
+  }
+}

@@ -1,0 +1,44 @@
+// Khai báo kích thước tương ứng với màn hình thiết bị
+@import '../fonts/font';
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;
+// media queries
+@mixin responsive($canvas) {
+  @if $canvas==xs {
+    @media only screen and (min-width: $xs) {
+      @content;
+    }
+  } @else if $canvas==sm {
+    @media only screen and (min-width: $sm) {
+      @content;
+    }
+  } @else if $canvas==md {
+    @media only screen and (min-width: $md) {
+      @content;
+    }
+  } @else if $canvas==lg {
+    @media only screen and (min-width: $lg) {
+      @content;
+    }
+  } @else if $canvas==xl {
+    @media only screen and (min-width: $xl) {
+      @content;
+    }
+  }
+}
+
+.flex-xxl-row {
+  @media (min-width: 1400px) {
+    flex-direction: row !important;
+  }
+}
+
+.mt-xxl-0 {
+  @media (min-width: 1400px) {
+    margin-top: 0 !important;
+  }
+}

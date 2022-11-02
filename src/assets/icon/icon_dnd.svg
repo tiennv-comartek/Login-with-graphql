@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_1211" data-name="Group 1211" transform="translate(-1678.669 -277.669)">
+    <rect id="Rectangle_393" data-name="Rectangle 393" width="50" height="50" transform="translate(1678.669 277.669)" fill="#f80000" opacity="0"/>
+    <g id="Rectangle_1915" data-name="Rectangle 1915" transform="translate(1689.669 291.669)" fill="#fff" stroke="#dbdbdb" stroke-width="2">
+      <rect width="28" height="22" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="26" height="20" rx="2" fill="none"/>
+    </g>
+    <line id="Line_109" data-name="Line 109" x2="16" transform="translate(1695.669 297.669)" fill="none" stroke="#dbdbdb" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_110" data-name="Line 110" x2="16" transform="translate(1695.669 302.669)" fill="none" stroke="#dbdbdb" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_111" data-name="Line 111" x2="16" transform="translate(1695.669 307.669)" fill="none" stroke="#dbdbdb" stroke-linecap="round" stroke-width="2"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M4.5,0,9,4H0Z" transform="translate(1699.669 285.669)" fill="#dbdbdb"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M4.5,0,9,4H0Z" transform="translate(1708.669 319.669) rotate(180)" fill="#dbdbdb"/>
+  </g>
+</svg>

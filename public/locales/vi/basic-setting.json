@@ -1,0 +1,13 @@
+{
+  "setting-basic": "Thiết lập cơ bản",
+  "form": {
+    "enable-review": "Tắt/Bật đánh giá sản phẩm",
+    "enable-chat-box": "Tắt/Bật khung tin nhắn"
+  },
+  "notification": {
+    "notification": "Thông báo",
+    "warning": "Cảng báo",
+    "success-update": "Cập nhật thành công",
+    "error-update": "Cập nhật thất bại"
+  }
+}

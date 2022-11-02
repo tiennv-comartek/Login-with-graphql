@@ -1,0 +1,30 @@
+{
+  "yes": "Ja",
+  "no": "Nei",
+  "delete_confirm": "Ønsker å slette?",
+  "cancel-add-admin": "Avbryt Legg til bruker",
+  "cancel-edit-admin": "Avbryt Rediger bruker",
+  "error": {
+    "error": "Feil",
+    "field_required": "Dette feltet er obligatorisk",
+    "field_email": "Ugyldig e-postformat",
+    "field_fullname": "Ugyldig navn",
+    "field_phone_number": "Telefonnummerets lengde eller format er ikke riktig",
+    "postal_code": "Postnummer må være et serienummer (4 eller 6 tegn)",
+    "sale_price_mess": "Kampanjeprisen må være lavere enn den opprinnelige prisen!",
+    "product_number_existed": "Produktnummer eksisterte",
+    "duplicated_client_domain": "Duplisert klientdomenenavn",
+    "duplicated_shop_name": "Duplikat butikknavn",
+    "duplicated_cms_domain": "Duplikat CMS-domenenavn",
+    "duplicated_name_or_phone": "Duplikatnavn eller telefon",
+    "image": "Bilde er påkrevd",
+    "max_length_100": "Lengden må ikke overstige 100 tegn",
+    "must_be_positive": "Dette feltet må være et positivt tall",
+    "Invalid": "Misformet!",
+    "invalid_domain": "Ugyldig format for domenenavn!"
+  },
+  "success": "Suksess",
+  "success_update": "Oppdatering vellykket!",
+  "error_update": "Oppdatering mislyktes!",
+  "remove_success": "Slett suksess"
+}

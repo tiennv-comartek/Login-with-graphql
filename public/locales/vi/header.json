@@ -1,0 +1,24 @@
+{
+  "role_text": {
+    "admin": "Admin",
+    "super-admin": "Supper admin",
+    "staff": "staff"
+  },
+  "profile": {
+    "change-password": "Đổi mật khẩu",
+    "logout": "Đăng xuất"
+  },
+  "notification": {
+    "notifications": "Thông báo",
+    "mark_all_as_read": "Đánh dấu là đã đọc hết",
+    "view_all_notifications": "Xem tất cả thông báo",
+    "order": "Đơn hàng",
+    "is": "",
+    "DONE_ORDER": "đã hoàn thành",
+    "CONFIRMED_ORDER": "đã xác nhận",
+    "CANCELED_ORDER": "bị hủy",
+    "ago": "trước",
+    "new-order": "Đơn hàng có mã {{orderNumber}} {{status}}.",
+    "new-order-invoice": "Đơn hàng hóa đơn {{orderNumber}} đã được tạo."
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Priter" transform="translate(1 2)">
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(-1 -2)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <path id="printer-2" d="M8.5,12.4a1.3,1.3,0,1,0,1.3,1.3A1.3,1.3,0,0,0,8.5,12.4ZM24.1,7.2H22.8V3.3A1.3,1.3,0,0,0,21.5,2H8.5A1.3,1.3,0,0,0,7.2,3.3V7.2H5.9A3.9,3.9,0,0,0,2,11.1v7.8a3.9,3.9,0,0,0,3.9,3.9H7.2v3.9A1.3,1.3,0,0,0,8.5,28h13a1.3,1.3,0,0,0,1.3-1.3V22.8h1.3A3.9,3.9,0,0,0,28,18.9V11.1A3.9,3.9,0,0,0,24.1,7.2ZM9.8,4.6H20.2V7.2H9.8ZM20.2,25.4H9.8V20.2H20.2Zm5.2-6.5a1.3,1.3,0,0,1-1.3,1.3H22.8V18.9a1.3,1.3,0,0,0-1.3-1.3H8.5a1.3,1.3,0,0,0-1.3,1.3v1.3H5.9a1.3,1.3,0,0,1-1.3-1.3V11.1A1.3,1.3,0,0,1,5.9,9.8H24.1a1.3,1.3,0,0,1,1.3,1.3Z" transform="translate(-1 -2)" fill="#fff" stroke="#2c3a57" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Restaurant" transform="translate(1 2)">
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(-1 -2)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(14 15)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2">
+      <rect width="12" height="12" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="10" height="10" rx="2" fill="none"/>
+    </g>
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(14)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2">
+      <rect width="12" height="12" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="10" height="10" rx="2" fill="none"/>
+    </g>
+    <g id="Rectangle_13" data-name="Rectangle 13" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2">
+      <rect width="12" height="12" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="10" height="10" rx="2" fill="none"/>
+    </g>
+    <line id="Line_237" data-name="Line 237" y2="8" transform="translate(6.5 17.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_238" data-name="Line 238" y2="8" transform="translate(10.5 21.5) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

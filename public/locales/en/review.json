@@ -1,0 +1,24 @@
+{
+  "review": "Reviews",
+  "review_setting": "Review Setting",
+  "review_by_products": {
+    "header": "Review by products",
+    "search": "Search by product",
+    "id": "ID",
+    "image": "Image",
+    "name": "Name",
+    "rating": "Rating",
+    "action": "Action",
+    "viewDetails": "View details"
+  },
+  "review_detail": {
+    "title": "Review detail",
+    "comments": "comments",
+    "sort_by": "Sort by",
+    "newest": "Newest",
+    "stars": "star(s)",
+    "anonymous": "Anonymous",
+    "noItem": "This product doesn’t have any reviews yet",
+    "no": "No"
+  }
+}

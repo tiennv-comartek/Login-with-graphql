@@ -1,0 +1,74 @@
+.filter__cms {
+  input {
+    font-size: 16px !important;
+  }
+  .icon_search_cate {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .ant-form-item {
+    height: 48px;
+    .ant-form-item-control-input {
+      height: 100%;
+      .ant-form-item-control-input-content {
+        height: 100%;
+
+        .ant-input-affix-wrapper {
+          height: 100%;
+          padding: 0 11px;
+        }
+      }
+    }
+  }
+
+  .manual_search {
+    height: 48px;
+    .ant-input-group,
+    .ant-input-group input {
+      height: 100%;
+    }
+  }
+
+  .ant-picker,
+  .ant-select-selector,
+  .ant-select-selection-search input {
+    height: 48px !important;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-select-selector {
+    background: #fcfcfd !important;
+  }
+  .ant-select-selection-placeholder,
+  .ant-select-selection-item {
+    line-height: 48px !important;
+  }
+
+  .multiple-form-item .ant-select-multiple {
+    z-index: 10;
+    .ant-select-selection-item {
+      line-height: normal !important;
+    }
+
+    .ant-select-selector {
+      height: auto !important;
+      min-height: 48px;
+
+      input {
+        height: 24px !important;
+      }
+    }
+  }
+}
+
+.ck.ck-content,
+textarea {
+  background: #fcfcfd;
+}

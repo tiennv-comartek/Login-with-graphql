@@ -1,0 +1,11 @@
+{
+  "drag_or": "Dra og slipp eller ",
+  "browser": "nettleser",
+  "drag_browser": "Dra og slipp eller nettleser",
+  "upload": "Laste opp",
+  "error": {
+    "error": "Feil",
+    "upload_file": "Du kan bare laste opp XLS/XLSX-, DOC/DOCX-, PPTX-filer!",
+    "upload_excel": "Du kan bare laste opp XLS/XLSX-filer!"
+  }
+}

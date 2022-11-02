@@ -1,0 +1,37 @@
+{
+  "admin-management": {
+    "admin": "Bruker",
+    "page-header": "Bruker",
+    "name": "Navn",
+    "search": "Søk",
+    "password": "Passord",
+    "new": "Ny",
+    "general-information": "Generell informasjon",
+    "create-admin": "Opprett bruker",
+    "edit-admin": "Rediger Bruker",
+    "no": "Nei",
+    "full-name": "Fullt navn",
+    "email": "E-post",
+    "number-phone": "Telefonnummer",
+    "address": "Adresse",
+    "action": "Handling",
+    "total-spend": "Totalt Forbruk",
+    "last-visit": "Siste besøk",
+    "isLoyal": "Lojal",
+    "placeholder": {
+      "enter-name": "Skriv inn navn....",
+      "enter-email": "Skriv inn e-post....",
+      "enter-password": "Oppgi passord....",
+      "enter-number-phone": "Skriv inn nummer telefon....",
+      "enter-address": "Skriv inn adresse...."
+    },
+    "notify": {
+      "delete-admin": "Slett bruker",
+      "mess_delete": "Vil du slette denne brukeren ? ",
+      "mess_delete_many": "Vil du slette disse admin ? ",
+      "ok": "Ok",
+      "mess_create_admin": "Vil du avbryte opprette ny bruker ?",
+      "mess_edit_admin": "Vil du avbryte rediger ny bruker?"
+    }
+  }
+}

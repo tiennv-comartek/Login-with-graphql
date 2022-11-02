@@ -1,0 +1,11 @@
+{
+  "drag_or": "Kéo & thả hoặc",
+  "browser": "trình duyệt",
+  "drag_browser": "Kéo & thả hoặc trình duyệt",
+  "upload": "Tải lên",
+  "error": {
+    "error": "Lỗi",
+    "upload_file": "Bạn chỉ có thể tải lên tệp XLS / XLSX, DOC / DOCX, PPTX!",
+    "upload_excel": "Bạn chỉ có thể tải lên tệp XLS / XLSX!"
+  }
+}

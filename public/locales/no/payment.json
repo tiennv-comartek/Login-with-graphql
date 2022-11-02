@@ -1,0 +1,23 @@
+{
+  "payment": "Innbetaling",
+  "authorize": "Autorisere",
+  "done": "Ferdig",
+  "form": {
+    "client_id": "Klient-ID",
+    "client_secret": "Klienthemmelighet",
+    "merchant_id": "Selger-ID",
+    "hash_secret": "Hash-hemmelighet",
+    "tmn_code": "TMN-kode",
+    "client_sub_key": "Kundeabonnementsnøkkel",
+    "merchant_no": "Selgernummer"
+  },
+  "label": {
+    "client_id": "Skriv inn klient-ID her....",
+    "client_secret": "Skriv inn klienthemmelighet her....",
+    "merchant_id": "Skriv inn selger-ID her....",
+    "hash_secret": "Skriv inn hash-hemmelighet her....",
+    "tmn_code": "Skriv inn TMN-kode her....",
+    "client_sub_key": "Skriv inn kundeabonnementsnøkkel her....",
+    "merchant_no": "Skriv inn selgernummer her...."
+  }
+}

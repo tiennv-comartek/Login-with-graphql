@@ -1,0 +1,6 @@
+mutation acclogin($loginInput: LoginInput!) {
+  signIn(LoginInput: $loginInput) {
+    accessToken
+    refreshToken
+  }
+}

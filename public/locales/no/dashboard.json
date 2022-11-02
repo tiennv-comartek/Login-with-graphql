@@ -1,0 +1,43 @@
+{
+    "title": "Dashboard",
+    "seeMore": "Se mer",
+    "total": {
+        "dailyRevenue": "Daglig inntekt (NOK)",
+        "user": "Bruker",
+        "orders": "Bestillinger",
+        "products": "Produkter"
+    },
+    "orders": {
+        "title": "Siste bestillinger",
+        "orderNumber": "Ordrenummer",
+        "customer": "Kunde",
+        "phone": "Telefon",
+        "paymentMethod": "Betalingsmåte",
+        "orderTime": "Bestillingstid",
+        "orderTotal": "Bestilling totalt (NOK)",
+        "status": "Status",
+        "action": "Handling"
+    },
+    "admin": {
+        "title": "Nye brukere",
+        "customer": "Kunde",
+        "phone": "Telefonnummer",
+        "email": "E-post"
+    },
+    "sales": {
+        "title": "Produktsalg"
+    },
+    "revenue": {
+        "title": "Inntekter",
+        "week": "Uke",
+        "month": "Måned",
+        "year": "År",
+        "dayOfWeek1": "Mandag",
+        "dayOfWeek2": "tirsdag",
+        "dayOfWeek3": "Onsdag",
+        "dayOfWeek4": "Torsdag",
+        "dayOfWeek5": "Fredag",
+        "dayOfWeek6": "Lørdag",
+        "dayOfWeek7": "Søndag"
+    }
+}

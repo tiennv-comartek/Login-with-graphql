@@ -1,0 +1,13 @@
+{
+  "setting-basic": "Setting Basic",
+  "form": {
+    "enable-review": "Enable reviews product",
+    "enable-chat-box": "Enable chat box"
+  },
+  "notification": {
+    "notification": "Notification",
+    "warning": "Warning",
+    "success-update": "Success updated",
+    "error-update": "Failed update"
+  }
+}

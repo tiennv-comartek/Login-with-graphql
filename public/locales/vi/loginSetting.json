@@ -1,0 +1,21 @@
+{
+  "loginSetting": "Cài đặt Socical",
+  "with_faceBook": "Đăng nhập Facebook",
+  "with_google": "Đăng nhập với Google",
+  "with_VIP": "Đăng nhập với Google VIPPS",
+  "chat_with_page": "Facebook Messenger",
+  "placeholder": {
+    "appId": "ID ứng dụng",
+    "secretKey": "Chìa khoá bí mật",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID"
+  },
+  "form": {
+    "appId": "ID ứng dụng",
+    "secretKey": "Chìa khoá bí mật",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID",
+    "clientId": "Client ID",
+    "clientIdFaceBook": "Client ID Facebook"
+  }
+}

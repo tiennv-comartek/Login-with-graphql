@@ -1,0 +1,21 @@
+{
+  "loginSetting": "Socical Setting",
+  "with_faceBook": "Login with Facebook",
+  "with_google": "Login with Google",
+  "with_VIP": "Login with VIPPS",
+  "chat_with_page": "Facebook messenger",
+  "placeholder": {
+    "appId": "App ID",
+    "secretKey": "Secret Key",
+    "clientId": "Client ID",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID"
+  },
+  "form": {
+    "appId": "App ID",
+    "secretKey": "Secret Key",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID",
+    "clientId": "Client ID"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "shipping": "Vận chuyển",
+  "form": {
+    "Client_ID": "ID khách hàng",
+    "Client_secret": "Bí mật khách hàng",
+    "Merchant_ID": "ID người bán"
+  }
+}

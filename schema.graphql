@@ -1,0 +1,1335 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+type AddressSettingDto {
+  address: String!
+  email: String!
+  lat: String
+  lng: String
+  mapIframe: String
+  name: String!
+  phone: String!
+}
+
+type AverageRatingDto {
+  averageRating: Float!
+  rating: Float!
+  review: Review!
+}
+
+type BasicSetting {
+  _id: ID!
+  addressSetting: [AddressSettingDto!]
+  createdAt: Float
+  type: SettingType!
+  "Value of basic settings."
+  value: String
+}
+
+type Cart {
+  _id: ID!
+  createdAt: Float
+  deletedAt: Float
+  productInfo: [ProductCartDto!]
+  uid: ID
+}
+
+type CashPaymentInfor {
+  amount: Float
+}
+
+type Category {
+  _id: ID!
+  createdAt: Float
+  deletedAt: Float
+  description: String
+  descriptionNor: String
+  image: Media
+  imageId: String
+  isFeatured: Boolean
+  isPopulated: Boolean
+  name: String!
+  nameNor: String!
+  position: Int
+  products: [Product!]
+  slug: String
+  updatedAt: Float
+}
+
+type CategoryRes {
+  data: [Category!]!
+  total: Int!
+}
+
+type Coupon {
+  _id: ID!
+  "Coupon codes"
+  code: String!
+  createdAt: Float!
+  createdBy: ID!
+  deletedAt: Float
+  deletedBy: ID
+  "Discount program"
+  programId: ID!
+  quantity: Float
+  type: DiscountType!
+  updatedAt: Float
+  updatedBy: ID
+  value: Float!
+}
+
+type CouponImportStateDataSub {
+  data: [Coupon!]
+  message: String
+  success: Boolean
+}
+
+type CreateOrderResponse {
+  order: Order!
+  payment: PaymentRes
+}
+
+type CustomColorProduct {
+  code: String!
+  color: String!
+  image: Media
+  imageId: ID!
+  quantity: Float!
+}
+
+type Customer {
+  _id: ID!
+  address: String
+  avatarId: String
+  createdAt: Float!
+  deletedAt: Float
+  email: String!
+  facebookEmail: String
+  facebookId: String
+  favoriteIds: [ID!]
+  favorites: [Product!]
+  fullName: String
+  initialProvider: String
+  isLoyal: Boolean
+  lastVist: Float
+  organizationAddress: String
+  organizationID: String
+  organizationName: String
+  phoneNumber: String
+  totalSpend: Float
+  type: CustomerType
+  updatedAt: Float
+  watched: [Product!]
+  watchedIds: [ID!]
+}
+
+type DELIVERY_FEE_DTO {
+  from: Float!
+  minOrderTotal: Float!
+  shippingFee: Float!
+  to: Float!
+}
+
+type Delivery {
+  fee: Float!
+  partner: String!
+}
+
+type DiscountProgram {
+  _id: ID!
+  createdAt: Float!
+  createdBy: ID!
+  deletedAt: Float
+  deletedBy: ID
+  endDate: Float!
+  name: String!
+  nameNor: String!
+  productIds: [ID!]
+  products: [Product!]
+  startDate: Float!
+  updatedAt: Float
+  updatedBy: ID
+}
+
+type ErrorInfoVipps {
+  contextId: String
+  errorCode: String
+  errorGroup: String
+  errorMessage: String
+}
+
+type ErrorInfor {
+  contextId: String
+  errorCode: String
+  errorGroup: String
+  errorMessage: String
+}
+
+type GetCouponRes {
+  data: [Coupon!]!
+  total: Float!
+}
+
+type GetCustomerDto {
+  data: [Customer!]!
+  total: Int!
+}
+
+type GetDiscountProgramRes {
+  data: [DiscountProgram!]!
+  total: Float!
+}
+
+type GetProductRes {
+  data: [Product!]!
+  total: Int!
+}
+
+type JWT {
+  expiresAt: String!
+  jwtPayload: JwtTokenPayload!
+  refreshToken: String!
+  refreshTokenExpiresAt: String!
+  token: String!
+  tokenType: String!
+}
+
+type JwtTokenPayload {
+  _id: String!
+  user: User!
+}
+
+type Media {
+  _id: ID
+  createdAt: DateTime!
+  createdBy: ID
+  thumbnail: String!
+  thumbnail2x: String
+  type: UploadType!
+  url: String!
+  user: User
+}
+
+type Mutation {
+  changePassword(changePasswordInput: ChangePasswordInput!): JWT!
+  createBasicGeneralSetting(createBasicGeneralSetting: createBasicGeneralSettingInput!): BasicSetting!
+  createCategory(createCategoryInput: CategoryInput!): Category!
+  createCoupon(createCouponInput: CreateCouponInput!): Coupon!
+  createCustomer(createCustomerInput: CreateCustomerInput!): Customer!
+  createDiscountProgram(createDiscountProgramInput: CreateDiscountProgramInput!): DiscountProgram!
+  createOrder(createOrderInput: CreateOrderInput!): CreateOrderResponse!
+  createProduct(createProductInput: CreateProductInput!): Product!
+  createReviewProducts(createReviewInput: CreateReviewInput!): AverageRatingDto!
+  createUser(createUserInput: CreateUserInput!): User!
+  importCoupons(excelUpload: ExcelUpload!): Boolean!
+  importExecel(excelUpload: ExcelUpload!): Boolean!
+  importExecelCustomers(excelUpload: ExcelUpload!): Boolean!
+  isSuperAmin(isSuperAdminInput: IsSuperAdminInput!): Boolean!
+  login(loginInput: LoginUserInput!): JWT!
+  loginWithFacebook(loginWithFacebookInput: LoginWithFacebookInput!): JWT!
+  loginWithGoogle(loginWithGoogleInput: LoginWithGoogleInput!): JWT!
+  manualSendEmailReport(dataInput: ManualSendEmailReportInput!): Boolean
+  refreshToken(refreshTokenInput: RefreshTokenInput!): JWT!
+  register(registerInput: CreateUserInput!): JWT!
+  removeCategory(removeCategoryInput: RemoveCategoryInput!): Boolean!
+  removeCoupon(_id: ID!): Boolean!
+  removeCustomer(_id: String!): Boolean!
+  removeDiscountProgram(_id: ID!): Boolean!
+  removeFavoriteProducts(ids: [ID!]!): Boolean!
+  removeProduct(removeProductInput: RemoveProductInput!): Boolean!
+  removeReviewProduct(reviewId: RemoveReviewProductInput!): Boolean!
+  removeUser(_id: ID!): Boolean!
+  resetPassword(changePasswordInput: ResetPassWordInput!): Boolean!
+  sendEmailResetPassWord(inputforget: ForgetPasswordInput!): Boolean!
+  updateCart(updateCartInput: UpdateCartInput!): Cart!
+  updateCategory(updateCategoryInput: UpdateCategoryInput!): Boolean!
+  updateCoupon(updateCouponInput: UpdateCouponInput!): Coupon!
+  updateCustomer(updateCustomerInput: UpdateCustomerInput!): Customer!
+  updateDiscountProgram(updateDiscountProgramInput: UpdateDiscountProgramInput!): Boolean!
+  updateFavoriteProduct(_id: ID!): Boolean!
+  updateHiddenReviews(updateHiddenReviewsInput: UpdateHiddenReviewsInput!): Boolean!
+  updatePaymentSetting(dataInput: SettingPaymentInput!): Boolean!
+  updateProduct(updateProductInput: UpdateProductInput!): Product!
+  updateReviewProduct(updateReviewInput: UpdateReviewInput!): Boolean!
+  updateUser(updateUserInput: UpdateUserInput!): Boolean!
+  updateWatchedProduct(_id: ID!): Boolean!
+  uploadMedia(mediaUpload: MediaUpload!): Media!
+  upsertBasicGeneralSettings(dataInput: UpsertBasicGeneralSettingsInput!): Boolean!
+  upsertShippingPartners(dataInput: UpsertShippingPartnerSettingInput!): Boolean!
+}
+
+type Order {
+  _id: ID!
+  confirmedAt: Float
+  createdAt: Float
+  deletedAt: Float
+  note: String
+  orderNumber: String!
+  paymentInfo: PaymentInfo
+  paymentMethod: PaymentMethod!
+  paymentStatus: PaymentStatus!
+  products: [OrderProductData!]!
+  shippingAddress: ShippingAddress!
+  shippingMethod: String!
+  status: OrderStatus!
+  "The price, you must pay"
+  totalPrice: Float
+  updatedAt: Float
+  userOrderNumber: String!
+  voucher: String
+}
+
+type OrderCustomProduct {
+  productCode: String!
+}
+
+type OrderProductData {
+  _id: ID!
+  extraOptions: [OrderCustomProduct!]
+  price: Float!
+  qty: Float!
+}
+
+type PaymentInfo {
+  cash: CashPaymentInfor
+  sumUp: SumUpPaymentInfo
+  vipps: VippsPaymentInfor
+  vnPay: VNPayCallbackQuery
+}
+
+type PaymentRes {
+  paymentInfo: PaymentInfo
+  type: ServiceGateway
+  url: String!
+}
+
+type PaymentSetting {
+  sumUp: SumUpSetting
+  vipps: VippsSetting
+  vnPay: VNPaySetting
+}
+
+type Product {
+  _id: ID!
+  catId: ID
+  category: Category
+  colors: [CustomColorProduct!]
+  createdAt: Float
+  createdBy: ID
+  deletedAt: Float
+  description: String
+  descriptionNor: String
+  images: [Media!]
+  isFeatured: Boolean
+  isPopulated: Boolean
+  itemNumber: String
+  mediaIds: [ID!]
+  name: String!
+  nameNor: String!
+  position: Float
+  "Product price"
+  price: Float!
+  productNumber: String
+  quantity: Float
+  relatedProductIds: [ID!]
+  relatedProducts: [Product!]
+  reviewsCounter: ReviewsCounterProduct
+  slug: String
+  "Special price "
+  specialPrice: Float
+  specification: [Specification!]
+  status: Boolean
+  tax: Float
+  updatedAt: Float
+  videos: [String!]
+}
+
+type ProductCartDto {
+  code: String
+  product: Product
+  productId: ID!
+  quantity: Float!
+}
+
+type Query {
+  ProductsByIds(ids: [ID!]!): [Product!]!
+  allAddressSetting: [BasicSetting!]!
+  allReviewsProduct(input: GetReviewOfProductInput!): ReviewsResponse!
+  categories(categories: PaginationInput!): CategoryRes!
+  categoriesClient(dataInput: GetCategoriesClientInput!): [Category!]!
+  category(input: GetCategoryInput!): Category
+  categoryClient(catClientInput: CatClientInput!): Category!
+  discountProgram(_id: ID!): DiscountProgram!
+  exportCustomers: Boolean!
+  findAllSetting: [BasicSetting!]!
+  findCustomerByCond(cond: GetRelatedCustomerInput!): [Customer!]!
+  findOneByType(type: String!): BasicSetting!
+  findOneReviewById(_id: GetReviewInput!): Review!
+  findProductsByCategory(input: productByCategory!): [Category!]!
+  getAllCustomers(customers: PaginationInput!): GetCustomerDto!
+  getBasicSetting(dataInput: GetBasicGeneralSettingInput!): [BasicSetting!]!
+  getCoupon(_id: ID!): Coupon!
+  getCoupons(getCouponsInput: GetCouponsInput!): GetCouponRes!
+  getCustomers(getCustomersInput: GetUsersInput!): UsersRes!
+  getDiscountPrograms(getDiscountProgramsInput: GetDiscountProgramsInput!): GetDiscountProgramRes!
+  getFavoriteProducts(input: GetProductsInput!): GetProductRes!
+  getProducts(input: ProductsInput!): GetProductRes!
+  getUserCart: Cart
+  getUserDetail(id: ID!): User!
+  getUsers(getUsersInput: GetUsersInput!): UsersRes!
+  getWatchedProducts(input: GetProductsInput!): GetProductRes!
+  iAmSuperAdmin: Boolean!
+  me: UserDto!
+  populatedCategories(input: GetPopulatedCatsInput!): CategoryRes!
+  populatedProducts(input: GetProductsInput!): GetProductRes!
+  product(input: FindProducInput!): Product!
+  relatedProducts(input: GetRelatedProductsInput!): GetProductRes!
+  reviewsProduct(products: ReviewsProductInput!): ReviewsDto!
+}
+
+type ResultReviewDto {
+  avg: Float
+  productId: String
+  success: Boolean
+}
+
+type Review {
+  _id: ID!
+  comment: String
+  createdAt: Float
+  deletedAt: Float
+  isHidden: Boolean!
+  productId: String!
+  rating: Int!
+  uid: ID!
+  updatedAt: Float
+  user: User
+}
+
+type ReviewsCounterProduct {
+  avg: Float!
+  rating1: Int!
+  rating2: Int!
+  rating3: Int!
+  rating4: Int!
+  rating5: Int!
+  total: Int!
+}
+
+type ReviewsDto {
+  data: [Review!]
+  total: Int!
+}
+
+type ReviewsResponse {
+  data: [Review!]
+  reviewsCounter: ReviewsCounterProduct
+  total: Int
+}
+
+type ShippingAddress {
+  address: String!
+  email: String
+  fax: String
+  name: String!
+  phoneNumber: String
+}
+
+type Specification {
+  key: String!
+  value: String!
+}
+
+type StateDataSub {
+  data: [Category!]
+  message: String
+  success: Boolean
+}
+
+type Subscription {
+  ImportCategoryExcelFileSub: StateDataSub!
+  ImportCouponSub: CouponImportStateDataSub!
+  ReviewProduct(productId: ProductIdInput!): ResultReviewDto!
+  UpdateCartSub: UpdateCartDataSub!
+}
+
+type SumUpCardObject {
+  last_4_digits: String
+  type: SumupCardType
+}
+
+type SumUpPaymentInfo {
+  amount: Float
+  checkoutId: String
+  checkoutReference: String
+  checkout_reference: String
+  date: String
+  purpose: String
+  status: SumUpCallbackStatus
+  transactionCode: String
+  transactionId: String
+  transactions: SumUpTransaction
+}
+
+type SumUpSetting {
+  clientId: String
+  clientSecret: String
+  merchant_code: String
+}
+
+type SumUpTransaction {
+  amount: String
+  auth_code: Boolean
+  card: SumUpCardObject
+  currency: String
+  entry_mode: String
+  id: String
+  installments_count: String
+  internal_id: String
+  merchant_code: String
+  payment_type: String
+  payout_plan: String
+  payout_type: String
+  product_summary: String
+  status: SumUpStatus
+  tax_enabled: Boolean
+  timestamp: String
+  tip_amount: String
+  transaction_code: String
+  vat_amount: String
+  verification_method: String
+}
+
+type TransactionInfo {
+  amount: Float
+  status: String
+  timeStamp: String
+  transactionId: Float
+}
+
+type TransactionInfor {
+  amount: Float
+  status: String
+  timeStamp: String
+  transactionId: Float
+}
+
+type UpdateCartDataSub {
+  data: Cart
+  message: String
+  success: Boolean
+}
+
+type User {
+  _id: ID!
+  address: String
+  avatar: Media
+  avatarId: String
+  createdAt: Float!
+  deletedAt: Float
+  email: String!
+  facebookEmail: String
+  facebookId: String
+  favoriteIds: [ID!]
+  favorites: [Product!]
+  fullName: String
+  initialProvider: String
+  isLoyal: Boolean
+  lastVist: Float
+  phoneNumber: String
+  totalSpend: Float
+  type: UserType
+  updatedAt: Float
+  watched: [Product!]
+  watchedIds: [ID!]
+}
+
+type UserDto {
+  _id: ID!
+  address: String
+  avatarId: String
+  createdAt: Float!
+  deletedAt: Float
+  email: String!
+  facebookEmail: String
+  facebookId: String
+  favoriteIds: [ID!]
+  favorites: [Product!]
+  fullName: String
+  initialProvider: String
+  isLoyal: Boolean
+  isSuperAdmin: Boolean
+  lastVist: Float
+  phoneNumber: String
+  totalSpend: Float
+  type: UserType
+  updatedAt: Float
+  watched: [Product!]
+  watchedIds: [ID!]
+}
+
+type UsersRes {
+  data: [User!]!
+  total: Int!
+}
+
+type VNPayCallbackQuery {
+  vnp_Amount: Float!
+  vnp_BankCode: String!
+  vnp_BankTranNo: String
+  vnp_CardType: String
+  vnp_OrderInfo: String!
+  vnp_PayDate: String
+  vnp_ResponseCode: String!
+  vnp_SecureHash: String!
+  vnp_SecureHashType: String
+  vnp_TmnCode: String!
+  vnp_TransactionNo: String!
+  vnp_TransactionStatus: VNPayTransactionStatus!
+  vnp_TxnRef: String!
+}
+
+type VNPaySetting {
+  hashSecret: String
+  tmnCode: String
+}
+
+type VippsCancelInfo {
+  message: String
+}
+
+type VippsCancelInfor {
+  message: String
+}
+
+type VippsPaymentInfor {
+  cancelInfor: VippsCancelInfor
+  errorInfor: ErrorInfor
+  merchantSerialNumber: String
+  orderId: String
+  transactionInfo: TransactionInfor
+}
+
+type VippsSetting {
+  clientId: String
+  clientSecret: String
+  clientSubscriptionKey: String
+  enable: Boolean
+  merchantNo: String
+}
+
+enum CustomerType {
+  ORGANIZATION
+  PERSONAL
+}
+
+enum DirectionInput {
+  ASC
+  DESC
+}
+
+enum DiscountType {
+  CASH
+  PERCENT
+}
+
+enum OrderStatus {
+  CANCELLED
+  CONFIRMED
+  DRAFT
+  PENDING
+  REFUNDED
+}
+
+enum PaymentMethod {
+  CARD
+  INVOICE
+  VIPPS
+  VNPAY
+}
+
+enum PaymentStatus {
+  CANCELLED
+  PENDING
+  SUCCESS
+}
+
+enum ProductSortMode {
+  LASTEST
+  POPULAR
+  PRICE_ASC
+  PRICE_DESC
+}
+
+enum ServiceGateway {
+  Dintero
+  SumUp
+  VNPay
+  Vipps
+}
+
+enum SettingType {
+  SETTING_CHECK_EDITOR
+  SETTING_DELIVERY_FEE
+  SETTING_EMAIL
+  SETTING_ENABLE_CHATBOX
+  SETTING_ENABLE_REVIEW_WEB
+  SETTING_FACEBOOK_SOCIAL_LINK
+  SETTING_INSTAGRAM_SOCIAL_LINK
+  SETTING_PAYMENT
+  SETTING_PAY_INVOICE_WEB
+  SETTING_SHIPPING_PARTNER
+  SETTING_SHOP_ADDRESS
+  SETTING_SHOP_COLORS
+  SETTING_TAX
+  SETTING_TAX_CONFIG
+  SETTING_TIKTOK_SOCIAL_LINK
+  SETTING_TWITTER_SOCIAL_LINK
+  SETTING_YOUTUBE_SOCIAL_LINK
+}
+
+enum SumUpCallbackStatus {
+  FAILED
+  PAID
+  PENDING
+}
+
+enum SumUpStatus {
+  CANCELLED
+  FAILED
+  PENDING
+  SUCCESSFUL
+}
+
+enum SumupCardType {
+  AMEX
+  CUP
+  DINERS
+  DISCOVER
+  ELO
+  ELV
+  HIPERCARD
+  JCB
+  MAESTRO
+  MASTERCARD
+  UNKNOWN
+  VISA
+  VISA_ELECTRON
+  VISA_VPAY
+}
+
+enum UploadType {
+  PHOTO
+}
+
+enum UserType {
+  ADMIN
+  ORGANIZATION
+  PERSONAL
+  STAFF
+  SUPER_ADMIN
+}
+
+enum VNPayTransactionStatus {
+  CHEATING
+  ERROR
+  PENDING
+  REFUND_DENY
+  REFUND_PENDING
+  REFUND_PENDING_BANKING
+  SPAM
+  SUCCESS
+}
+
+"A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format."
+scalar DateTime
+
+"The `Upload` scalar type represents a file upload."
+scalar Upload
+
+input AddressSettingInput {
+  address: String!
+  email: String!
+  lat: String
+  lng: String
+  mapIframe: String
+  name: String!
+  phone: String!
+}
+
+input CatClientInput {
+  _id: ID
+  slug: String
+}
+
+input CategoryInput {
+  description: String
+  descriptionNor: String
+  imageId: String
+  isFeatured: Boolean = false
+  isPopulated: Boolean = false
+  name: String!
+  nameNor: String!
+  position: Int
+}
+
+input ChangePasswordInput {
+  confirmPassword: String!
+  newPassword: String!
+  oldPassword: String!
+}
+
+input ColorProductInput {
+  color: String!
+  imageId: ID!
+  quantity: Int!
+}
+
+input CreateCouponInput {
+  code: String!
+  "Discount program"
+  programId: ID!
+  quantity: Float
+  type: DiscountType!
+  value: Float!
+}
+
+input CreateCustomerInput {
+  address: String
+  avatarId: String
+  email: String!
+  fullName: String!
+  isLoyal: Boolean = false
+  organizationAddress: String
+  organizationID: String
+  organizationName: String
+  password: String!
+  phoneNumber: String!
+  type: CustomerType!
+}
+
+input CreateDiscountProgramInput {
+  endDate: DateTime!
+  name: String!
+  nameNor: String!
+  productIds: [ID!]
+  startDate: DateTime!
+}
+
+input CreateOrderInput {
+  note: String
+  paymentMethod: PaymentMethod!
+  products: [OrderProductDataInput!]!
+  shippingAddress: ShippingAddressInput!
+  shippingMethod: ShippingMethodInput!
+  totalPrice: Float!
+  voucher: String
+}
+
+input CreateProductInput {
+  catId: ID!
+  colors: [ColorProductInput!]
+  description: String
+  descriptionNor: String
+  isFeatured: Boolean = false
+  isPopulated: Boolean = false
+  itemNumber: String
+  mediaIds: [ID!]
+  name: String!
+  nameNor: String!
+  "Product price"
+  price: Float!
+  productNumber: String
+  quantity: Int
+  relatedProductIds: [ID!] = []
+  "Special price"
+  specialPrice: Float
+  specification: [SpecificationInput!]
+  status: Boolean = true
+  videos: [String!]
+}
+
+input CreateReviewInput {
+  comment: String
+  productId: String!
+  rating: Int!
+}
+
+input CreateUserInput {
+  address: String
+  avatarId: String
+  email: String!
+  fullName: String!
+  isSendEmail: Boolean
+  organizationAddress: String
+  organizationID: String
+  organizationName: String
+  password: String!
+  phoneNumber: String!
+  type: UserType!
+}
+
+input DELIVERY_FEE_INPUT {
+  from: Float!
+  minOrderTotal: Float!
+  shippingFee: Float!
+  to: Float!
+}
+
+input DeliveryInput {
+  fee: Float!
+  partner: String!
+}
+
+input ExcelUpload {
+  file: Upload!
+}
+
+input FindProducInput {
+  _id: ID
+  slug: String
+}
+
+input ForgetPasswordInput {
+  email: String!
+  name: String!
+}
+
+input GetBasicGeneralSettingInput {
+  types: [SettingType!]!
+}
+
+input GetCategoriesClientInput {
+  q: String
+}
+
+input GetCategoryInput {
+  _id: ID
+  slug: ID
+}
+
+input GetCouponsInput {
+  code: String
+  pageOptions: PaginationBaseDto = {}
+  programId: ID
+}
+
+input GetDiscountProgramsInput {
+  endDate: DateTime
+  limit: Int
+  name: String
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  productName: String
+  startDate: DateTime
+}
+
+input GetPopulatedCatsInput {
+  "ID"
+  after: ID
+  "Page option: Field name to apply after"
+  afterBy: String
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  "query to searching"
+  q: String
+  "Page option"
+  sortBy: String
+  "Page option"
+  sortMode: DirectionInput
+}
+
+input GetProductsInput {
+  "ID"
+  after: ID
+  "Page option: Field name to apply after"
+  afterBy: String
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  "query to searching"
+  q: String
+  "Page option"
+  sortBy: String
+  "Page option"
+  sortMode: DirectionInput
+}
+
+input GetRelatedCustomerInput {
+  isLoyal: Boolean
+  q: String
+}
+
+input GetRelatedProductsInput {
+  "ID"
+  after: ID
+  limit: Int
+  productIds: [ID!]!
+}
+
+input GetReviewInput {
+  _id: String
+}
+
+input GetReviewOfProductInput {
+  isHidden: Boolean
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  productId: ID!
+  rating: Int
+}
+
+input GetUsersInput {
+  "ID"
+  after: ID
+  "Page option: Field name to apply after"
+  afterBy: String
+  isLoyal: Boolean
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  "query to searching"
+  q: String
+  "Page option"
+  sortBy: String
+  "Page option"
+  sortMode: DirectionInput
+  type: UserType
+  uids: [ID!]
+}
+
+input IsSuperAdminInput {
+  password: String!
+  username: String!
+}
+
+input LoginUserInput {
+  emailOrPhone: String!
+  password: String!
+}
+
+input LoginWithFacebookInput {
+  "The access token from facebook login"
+  token: String!
+}
+
+input LoginWithGoogleInput {
+  "The access token from google login"
+  token: String!
+}
+
+input ManualSendEmailReportInput {
+  "Lis of recipients"
+  recipients: [String!]!
+  "List of report Id"
+  reportIds: [String!]!
+}
+
+input MediaDimension {
+  height: Int!
+  width: Int!
+}
+
+input MediaUpload {
+  dimensions: MediaDimension
+  file: Upload!
+}
+
+input OrderCustomProductInput {
+  productCode: String!
+}
+
+input OrderProductDataInput {
+  _id: ID!
+  extraOptions: [OrderCustomProductInput!]
+  price: Float!
+  qty: Float!
+}
+
+input PaginationBaseDto {
+  "ID"
+  after: ID
+  "Page option: Field name to apply after"
+  afterBy: String
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  "query to searching"
+  q: String
+  "Page option"
+  sortBy: String
+  "Page option"
+  sortMode: DirectionInput
+}
+
+input PaginationInput {
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+}
+
+input PaginationProductDto {
+  "ID"
+  after: ID
+  "Page option: Field name to apply after"
+  afterBy: String
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  "query to searching"
+  q: String
+  sortBy: ProductSortMode
+}
+
+input ProductIdInput {
+  _id: ID!
+}
+
+input ProductsCartInput {
+  code: String
+  productId: ID!
+  quantity: Float = 1.0
+}
+
+input ProductsInput {
+  catId: ID
+  catSlug: String
+  pageOptions: PaginationProductDto = {}
+}
+
+input RefreshTokenInput {
+  refreshToken: String!
+}
+
+input RemoveCategoryInput {
+  _id: ID
+}
+
+input RemoveProductInput {
+  _id: ID!
+}
+
+input RemoveReviewProductInput {
+  _id: ID!
+}
+
+input ResetPassWordInput {
+  password: String!
+  token: String!
+}
+
+input ReviewsProductInput {
+  limit: Int
+  "No pagination on this query"
+  noPaginate: Boolean
+  page: Int
+  productId: String!
+}
+
+input SettingPaymentInput {
+  sumUp: SumUpSettingInput
+  vipps: VippsSettingInput
+  vnPay: VNPaySettingInput
+}
+
+input ShippingAddressInput {
+  address: String!
+  email: String
+  fax: String
+  name: String!
+  phoneNumber: String
+}
+
+input ShippingMethodInput {
+  delivery: DeliveryInput
+  pickUpAtStore: Boolean
+}
+
+input SpecificationInput {
+  key: String!
+  value: String!
+}
+
+input SumUpSettingInput {
+  clientId: String
+  clientSecret: String
+  merchant_code: String
+}
+
+input UpdateCartInput {
+  productsInCart: [ProductsCartInput!]!
+}
+
+input UpdateCategoryInput {
+  _id: ID!
+  description: String
+  descriptionNor: String
+  imageId: String
+  isFeatured: Boolean = false
+  isPopulated: Boolean
+  name: String!
+  nameNor: String
+  position: Int
+}
+
+input UpdateColorProductInput {
+  code: String
+  color: String!
+  imageId: ID!
+  quantity: Int!
+}
+
+input UpdateCouponInput {
+  _id: ID!
+  code: String
+  "Discount program"
+  programId: ID
+  quantity: Float
+  type: DiscountType
+  value: Float
+}
+
+input UpdateCustomerInput {
+  _id: ID!
+  address: String
+  avatarId: String
+  email: String
+  fullName: String
+  isLoyal: Boolean = false
+  organizationAddress: String
+  organizationID: String
+  organizationName: String
+  password: String
+  phoneNumber: String
+}
+
+input UpdateDiscountProgramInput {
+  _id: ID!
+  endDate: DateTime
+  name: String
+  nameNor: String
+  productIds: [ID!]
+  startDate: DateTime
+}
+
+input UpdateHiddenReviewsInput {
+  ids: [ID!]!
+  isHidden: Boolean!
+  productId: ID!
+}
+
+input UpdateProductInput {
+  _id: ID!
+  catId: ID
+  colors: [UpdateColorProductInput!]
+  description: String
+  descriptionNor: String
+  isFeatured: Boolean
+  isPopulated: Boolean
+  itemNumber: String
+  mediaIds: [ID!]
+  name: String
+  nameNor: String
+  position: Float
+  "Product price"
+  price: Float
+  productNumber: String
+  quantity: Int
+  relatedProductIds: [ID!]
+  reviewsCounter: UpdateReviewsCounterInput
+  "Special price"
+  specialPrice: Float
+  specification: [SpecificationInput!]
+  status: Boolean
+  videos: [String!]
+}
+
+input UpdateReviewInput {
+  _id: ID!
+  comment: String
+  productId: String!
+  rating: Int
+}
+
+input UpdateReviewsCounterInput {
+  avg: Float!
+  rating1: Int!
+  rating2: Int!
+  rating3: Int!
+  rating4: Int!
+  rating5: Int!
+  total: Int!
+}
+
+input UpdateUserInput {
+  _id: ID
+  address: String
+  avatarId: String
+  email: String
+  fullName: String
+  isSendEmail: Boolean
+  organizationAddress: String
+  organizationID: String
+  organizationName: String
+  password: String
+  phoneNumber: String
+  type: UserType
+}
+
+input UpsertBasicGeneralSettingsInput {
+  settingsData: [createBasicGeneralSettingInput!]!
+}
+
+input UpsertShippingPartnerSettingInput {
+  settingsData: [createShippingPartnerSettingInput!]!
+}
+
+input VNPaySettingInput {
+  hashSecret: String
+  tmnCode: String
+}
+
+input VippsSettingInput {
+  clientId: String
+  clientSecret: String
+  clientSubscriptionKey: String
+  enable: Boolean = true
+  merchantNo: String
+}
+
+input createBasicGeneralSettingInput {
+  addressSetting: [AddressSettingInput!]
+  colorsSetting: [String!]
+  deliveryFee: [DELIVERY_FEE_INPUT!]
+  emailSetting: [String!]
+  tax: Float
+  type: SettingType!
+  value: String
+}
+
+input createShippingPartnerSettingInput {
+  "Logo of partner"
+  mediaId: ID
+  partnerName: String!
+  shippingFee: Float!
+}
+
+input productByCategory {
+  limitCategory: Float
+  limitProduct: Float
+}

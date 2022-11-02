@@ -1,0 +1,58 @@
+{
+  "title": "Đơn đặt hàng",
+  "confirm": "Đã xác nhận",
+  "name_not_found": "Không thể tìm thấy tên khách hàng",
+  "method_not_found": "Không thể tìm thấy phương thức giao hàng",
+  "confirmed": "Đã xác nhận",
+  "delivery": "Vận chuyển",
+  "done": "Xong",
+  "something_wrong": "Không thể tìm thấy phương thức giao hàng",
+  "cancel_order": "Hủy đơn hàng",
+  "filter": {
+    "orderNumber": "Số Đơn hàng",
+    "paymentMethod": "Chọn phương thức thanh toán",
+    "paymentStatus": "Chọn trạng thái",
+    "search": "Tìm kiếm"
+  },
+  "table": {
+    "orderNumber": "Số Đơn hàng",
+    "customer": "Khách hàng",
+    "phone": "Điện thoại",
+    "paymentMethod": "Phương thức thanh toán",
+    "orderTime": "Thời gian đặt hàng",
+    "orderTotal": "Tổng đơn đặt hàng (NOK)",
+    "status": "Trạng thái",
+    "action": "Hành động"
+  },
+  "detail": {
+    "title": "Chi tiết đơn hàng",
+    "draft": "Bản nháp",
+    "pending": "Đang chờ xử lý",
+    "confirmed": "Đã xác nhận",
+    "delivery": "Vận chuyển",
+    "cancelled": "Đã hủy",
+    "done": "Xong",
+    "orderNumber": "Số Đơn hàng",
+    "customerInformation": "Thông tin khách hàng",
+    "address": "Địa chỉ",
+    "phone": "Điện thoại",
+    "paymentMethod": "Phương thức thanh toán",
+    "paymentStatus": "Trạng thái thanh toán",
+    "deliveryMethod": "Phương thức phân phối",
+    "shippingFee": "Phí vận chuyển (NOK)",
+    "estimatedDelivery": "Giao hàng ước tính",
+    "image": "Hình ảnh",
+    "productName": "Tên",
+    "quantity": "Số lượng",
+    "unitPrice": "Đơn giá (NOK)",
+    "total": "Tổng số (NOK)",
+    "subtotal": "Tổng phụ",
+    "changeStatus": "Thay đổi trạng thái",
+    "pickUpAtStore": "Nhận tại cửa hàng"
+  },
+  "print": {
+    "sales-receipt": "Biên lai bán hàng",
+    "qty-des": "Mô tả QTY",
+    "total": "Tổng"
+  }
+}

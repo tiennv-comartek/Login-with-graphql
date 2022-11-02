@@ -1,0 +1,35 @@
+{
+  "categories": "Danh sách danh mục",
+  "category": "Danh mục",
+  "add_new_category": "Thêm mới danh mục",
+  "edit_category": "Chỉnh sửa danh mục",
+  "remove_category": "Xóa danh mục",
+  "category_name": "Tên danh Mục....",
+  "description": "Nhập mô tả tại đây ....",
+  "slug": "Nhập slug....",
+  "form": {
+    "category_name": "Tên danh mục",
+    "featured_category": "Danh mục nổi bật",
+    "featured": "Nổi bật",
+    "description": "Mô tả",
+    "upload_image": "Tải ảnh lên",
+    "image": "Ảnh",
+    "search": "Tìm kiếm...",
+    "no": "STT",
+    "slug": "Slug",
+    "action": "Hành động"
+  },
+  "notification": {
+    "notification": "Thông báo",
+    "warning": "Cảnh báo",
+    "success-update": "Cập nhật thành công",
+    "error-update": "Cập nhật thất bại",
+    "confirm_cancel_category_content": "Bạn có chắc chắn muốn hủy hành động?",
+    "confirm_cancel_category": "Hủy bỏ hành động?",
+    "create-success": "Thêm mới thành công",
+    "confirm-remove-category": "Bạn có chắc chắn muốn xóa danh mục này không?"
+  },
+  "error": {
+    "required": "Đây là thông tin bắt buộc!"
+  }
+}

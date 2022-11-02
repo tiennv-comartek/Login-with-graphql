@@ -1,0 +1,23 @@
+{
+  "payment": "Thanh toán",
+  "authorize": "Xác thực",
+  "done": "Xong",
+  "form": {
+    "client_id": "ID khách hàng",
+    "client_secret": "Bí mật khách hàng",
+    "merchant_id": "ID người bán",
+    "hash_secret": "Băm bí mật",
+    "tmn_code": "Mã TMN",
+    "client_sub_key": "Khóa đăng ký khách hàng",
+    "merchant_no": "Số hiệu"
+  },
+  "placeholder": {
+    "client_id": "Nhập id khách hàng tại đây ....",
+    "client_secret": "Nhập bí mật của khách hàng tại đây ....",
+    "merchant_id": "Nhập id người bán tại đây ....",
+    "hash_secret": "Nhập bí mật băm ở đây ....",
+    "tmn_code": "Gõ mã TMN tại đây ....",
+    "client_sub_key": "Nhập khóa đăng ký khách hàng tại đây ....",
+    "merchant_no": "Type merchant number here...."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "shipping": "Shipping",
+  "form": {
+    "Client_ID": "klient-ID",
+    "Client_secret": "Klienthemmelighet",
+    "Merchant_ID": "Selger-ID"
+  }
+}

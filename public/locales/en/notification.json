@@ -1,0 +1,30 @@
+{
+  "yes": "Yes",
+  "no": "No",
+  "delete_confirm": "Confirm to delete?",
+  "cancel-add-admin": "Cancel adding new admin?",
+  "cancel-edit-admin": "Cancel editing admin?",
+  "error": {
+    "error": "Error",
+    "field_required": "This field is required!",
+    "field_email": "Invalid email format",
+    "field_fullname": "Invalid fullname format",
+    "field_phone_number": "Phone number length or format is not correct",
+    "postal_code": "Postal code must be a serial number (4 or 6 characters)",
+    "sale_price_mess": "Promotion price must be less than original price!",
+    "product_number_existed": "Product number existed",
+    "duplicated_shop_name": "Duplicate shop name",
+    "duplicated_client_domain": "Duplicate client domain name",
+    "duplicated_cms_domain": "Duplicate CMS domain name",
+    "duplicated_name_or_phone": "Duplicate name or phone",
+    "image": "Image is required",
+    "max_length_100": "Length must not exceed 100 characters",
+    "must_be_positive": "This field must be a positive number",
+    "Invalid": "Invalid format!",
+    "invalid_domain": "Invalid domain name format!"
+  },
+  "success": "Success",
+  "success_update": "Update successfully!",
+  "error_update": "Update failed!",
+  "remove_success": "Delete successfully"
+}

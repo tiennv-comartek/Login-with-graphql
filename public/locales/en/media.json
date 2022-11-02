@@ -1,0 +1,11 @@
+{
+  "drag_or": "Drag & drop or ",
+  "browser": "browser",
+  "drag_browser": "Drag & drop or browser",
+  "upload": "Upload",
+  "error": {
+    "error": "Error",
+    "upload_file": "You can only upload XLS/XLSX, DOC/DOCX, PPTX file!",
+    "upload_excel": "You can only upload XLS/XLSX file!"
+  }
+}

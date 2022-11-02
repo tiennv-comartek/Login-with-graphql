@@ -1,0 +1,41 @@
+{
+  "shop": "Shop",
+  "create": "Create",
+  "remove": "Remove shop",
+  "confirm_remove": "Are you sure to remove this shop?",
+  "edit": "Edit",
+  "assign_admin_to_shop": "Assign admin to shop",
+  "available_admin": "Available admin",
+  "search": "Search",
+  "open-link": "Open link on other tab",
+  "title": {
+    "name_domain": "Shop name and domain name",
+    "media": "Media",
+    "admin": "Admins",
+    "general_info": "General Information"
+  },
+  "form": {
+    "client_domain": "Client domain name",
+    "cms_domain": "CMS domain name",
+    "name": "Shop name",
+    "logo": "Logo",
+    "background": "Background"
+  },
+  "placeholder": {
+    "client_domain": "Type client domain here...",
+    "cms_domain": "Type CMS domain here...",
+    "name": "Type shop name...",
+    "logo": "Logo",
+    "background": "Background"
+  },
+  "btn": {
+    "add_new_shop": "Add new shop"
+  },
+  "table": {
+    "no": "No",
+    "name": "Name",
+    "client_domain": "Client domain name",
+    "cms_domain": "CMS domain name",
+    "action": "Action"
+  }
+}

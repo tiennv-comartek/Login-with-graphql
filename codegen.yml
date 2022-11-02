@@ -1,0 +1,13 @@
+overwrite: true
+schema: 'https://api.givenow.viziple.com/graphql'
+documents: 'src/**/*.graphql'
+generates:
+  src/graphql/generated/graphql.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-graphql-request'
+    config:
+      useTypeImports: true
+      omitOperationSuffix: true
+      namingConvention: pascal-case#pascalCase

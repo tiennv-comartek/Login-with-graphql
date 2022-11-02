@@ -1,0 +1,22 @@
+@import './variable.scss';
+
+.ant-switch {
+  height: 24px;
+  width: 40px;
+  .ant-switch-handle {
+    width: 26px;
+    height: 26px;
+    &::before {
+      border-radius: 25px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &.ant-switch-checked {
+    background: $primaryColor;
+
+    .ant-switch-handle {
+      left: calc(100% - 24px);
+    }
+  }
+}

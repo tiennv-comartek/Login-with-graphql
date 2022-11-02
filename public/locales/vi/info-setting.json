@@ -1,0 +1,18 @@
+{
+  "setting-info": "Thiết lập thông tin",
+  "form": {
+    "name": "Tên",
+    "address": "Địa chỉ",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "map": "Bản đồ"
+  },
+  "notification": {
+    "notification": "Thông báo",
+    "warning": "Cảng báo",
+    "success-update": "Cập nhật thành công",
+    "error-update": "Cập nhật thất bại",
+    "confirm_delete": "Bán có chắc chắn muốn xóa địa chỉ này không?",
+    "confirm_delete_title": "Xóa địa chỉ?"
+  }
+}

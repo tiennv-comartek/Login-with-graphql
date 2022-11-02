@@ -1,0 +1,23 @@
+{
+  "payment": "Payment",
+  "authorize": "Authorize",
+  "done": "Done",
+  "form": {
+    "client_id": "Client ID",
+    "client_secret": "Client secret",
+    "merchant_id": "Merchant ID",
+    "hash_secret": "Hash secret",
+    "tmn_code": "TMN Code",
+    "client_sub_key": "Client subscription key",
+    "merchant_no": "Merchant number"
+  },
+  "label": {
+    "client_id": "Type client id here....",
+    "client_secret": "Type client secret here....",
+    "merchant_id": "Type merchant id here....",
+    "hash_secret": "Type hash secret here....",
+    "tmn_code": "Type TMN code here....",
+    "client_sub_key": "Type client subscription key here....",
+    "merchant_no": "Type merchant number here...."
+  }
+}

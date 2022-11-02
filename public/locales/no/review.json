@@ -1,0 +1,24 @@
+{
+  "review": "Anmeldelser",
+  "review_setting": "Gjennomgangsinnstilling",
+  "review_by_products": {
+    "header": "Gjennomgå etter produkter",
+    "search": "Søk etter produkt",
+    "id": "Id",
+    "image": "Bilde",
+    "name": "Navn",
+    "rating": "Vurdering",
+    "action": "Handling",
+    "viewDetails": "Se detaljer"
+  },
+  "review_detail": {
+    "title": "Gjennomgangsdetalj",
+    "comments": "kommentarer",
+    "sort_by": "Sorter etter",
+    "newest": "Nyeste",
+    "stars": "stjerne(r)",
+    "anonymous": "Anonym",
+    "noItem": "Dette produktet har ingen anmeldelser ennå",
+    "no": "Nei"
+  }
+}

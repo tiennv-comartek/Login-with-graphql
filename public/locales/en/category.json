@@ -1,0 +1,36 @@
+{
+  "categories": "Categories",
+  "category": "Category",
+  "add_new_category": "Add new category",
+  "edit_category": "Edit category",
+  "remove_category": "Remove category",
+  "category_name": "Type category name here....",
+  "description": "Type description here....",
+  "slug": "Type slug here....",
+  "form": {
+    "category_name": "Category name",
+    "featured_category": "Featured category",
+    "featured": "Featured",
+    "description": "Description",
+    "upload_image": "Upload image",
+    "image": "Image",
+    "search": "Search...",
+    "no": "No",
+    "slug": "Slug",
+    "action": "Action"
+  },
+  "notification": {
+    "notification": "Notification",
+    "warning": "Warning",
+    "success-update": "Success updated",
+    "error-update": "Failed update",
+    "confirm_cancel_category_content": "Are you sure to want to cancel this category?",
+    "confirm_cancel_category": "Cancel this category?",
+    "create-success": "Created  success",
+    "confirm-remove-category": "Are you sure to want to remove this category",
+    "confirm-edit-category": "Are you sure to want to cancel edit this category"
+  },
+  "error": {
+    "required": "This information is required!"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "role_text": {
+    "admin": "Admin",
+    "super-admin": "Supper admin",
+    "staff": "staff"
+  },
+  "profile": {
+    "change-password": "Bytt passord",
+    "logout": "Logg ut"
+  },
+  "notification": {
+    "notifications": "Varsler",
+    "mark_all_as_read": "Marker alle som lest",
+    "view_all_notifications": "Se alle varsler",
+    "order": "Rekkefølge",
+    "is": "er",
+    "DONE_ORDER": "ferdig",
+    "CONFIRMED_ORDER": "bekreftet",
+    "CANCELED_ORDER": "avbrutt",
+    "ago": "siden",
+    "new-order": "Ordre {{orderNumber}} er {{status}}.",
+    "new-order-invoice": "Ordrefaktura {{orderNumber}} er opprettet."
+  }
+}

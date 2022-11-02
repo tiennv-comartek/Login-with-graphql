@@ -1,0 +1,101 @@
+@import './variable.scss';
+
+.ant-form-item-label > label {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #23262f;
+  font-weight: 500;
+}
+
+.ant-form-item-label .ant-form-item-required {
+  font-weight: 500;
+  &::before {
+    order: 1;
+    margin-right: 0;
+    margin-left: 4px;
+  }
+}
+
+.ant-input[disabled] {
+  color: #333333;
+}
+
+.ant-input,
+.ck.ck-content {
+  background: $mainColor !important;
+}
+
+.active {
+  .ant-input {
+    background: $colorWhite;
+  }
+}
+
+.ant-input-number-input {
+  &:active,
+  &:focus {
+    background: $colorWhite;
+  }
+}
+
+.ant-select {
+  .ant-select-selector {
+    background: #f9f9f9 0% 0% no-repeat padding-box !important;
+  }
+}
+
+.ant-picker {
+  &.bg-gray {
+    background: #f9f9f9 0% 0% no-repeat padding-box !important;
+  }
+}
+
+.input-size-custom {
+  height: 40px !important;
+  input {
+    height: 40px !important;
+  }
+}
+
+.form-holiday-setting {
+  .ant-picker {
+    background: #f9f9f9 0% 0% no-repeat padding-box !important;
+  }
+}
+
+.input-font-bold {
+  input {
+    font-weight: bold;
+  }
+}
+
+.address-form {
+  .title-item {
+    font-size: 20px;
+    color: black;
+  }
+  .delete-item {
+    font-size: 18px;
+    color: rgb(255, 57, 57);
+    cursor: pointer;
+    &:hover {
+      color: rgb(255, 0, 0);
+      font-weight: 500;
+    }
+  }
+  .btn-add-address {
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(66, 110, 233);
+    text-decoration: underline;
+    &:hover {
+      color: rgb(0, 65, 245);
+    }
+  }
+}
+
+.ant-badge-dot {
+  min-width: 10px;
+  height: 10px;
+}

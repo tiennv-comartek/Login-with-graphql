@@ -1,0 +1,136 @@
+.ant-table {
+  box-shadow: 0px 3px 20px #17254b1a;
+}
+
+.ant-table-thead {
+  height: 54px;
+  .ant-table-cell {
+    background-color: #fcfcfd;
+    font-size: 16px;
+    font-weight: 500;
+    color: #777e90;
+    letter-spacing: 0px;
+    &::before {
+      width: 0px !important;
+      display: none;
+    }
+  }
+  .column-group {
+    color: #2c3a57;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+  th {
+    ::before {
+      width: 0px !important;
+    }
+  }
+}
+
+.ant-row-end {
+  margin-top: 25px !important;
+}
+
+.ant-table-tbody {
+  background-color: #fcfcfd;
+  .ant-table-row {
+    .ant-table-cell {
+      font-size: 16px;
+      color: #23262f;
+      font-weight: 500;
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .no-data-table {
+    span {
+      color: #bdbdbe;
+    }
+  }
+}
+
+.ant-table-pagination {
+  .ant-pagination-options {
+    display: none;
+  }
+
+  li {
+    min-width: 36px;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 8px;
+    .ant-pagination-item-link {
+      min-width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
+  }
+  .ant-pagination-item-active {
+    background: #2c3a57;
+    color: white;
+    border-color: transparent;
+    a {
+      color: white;
+    }
+  }
+  .ant-pagination-item {
+    min-width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    a {
+      width: max-content;
+      height: max-content;
+    }
+  }
+  .ant-pagination-jump-next,
+  .ant-pagination-jump-prev {
+    background-color: transparent;
+    border: none;
+    .ant-pagination-item-container {
+      min-width: 36px;
+    }
+    .ant-pagination-item-ellipsis {
+      color: #2c3a57;
+    }
+  }
+}
+
+.ant-table tr.drop-over-downward td {
+  border-bottom: 2px dashed #1890ff;
+}
+
+.ant-table tr.drop-over-upward td {
+  border-top: 2px dashed #1890ff;
+}
+
+.width-fit-content {
+  width: fit-content;
+}
+
+.table_holiday_setting {
+  .ant-table {
+    box-shadow: none;
+  }
+  .ant-table-tbody {
+    .ant-table-row {
+      .ant-table-cell {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #2c3a57;
+        a {
+          font-size: 18px;
+          letter-spacing: 0px;
+          color: #2c3a57;
+        }
+      }
+    }
+  }
+}

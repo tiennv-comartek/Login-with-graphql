@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Dashboard" transform="translate(1 2)">
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(-1 -2)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-1225-8584h-18a5.005,5.005,0,0,1-5-5v-18a5.006,5.006,0,0,1,5-5h18a5.006,5.006,0,0,1,5,5v18A5.005,5.005,0,0,1-1225-8584Zm-18-26a3,3,0,0,0-3,3v18a3,3,0,0,0,3,3h18a3,3,0,0,0,3-3v-18a3,3,0,0,0-3-3Z" transform="translate(1248 8611)" fill="#f8f8f8"/>
+    <rect id="Rectangle_1903" data-name="Rectangle 1903" width="2" height="11" rx="1" transform="translate(7 12)" fill="#fff"/>
+    <rect id="Rectangle_1904" data-name="Rectangle 1904" width="2" height="18" rx="1" transform="translate(13 5)" fill="#fff"/>
+    <rect id="Rectangle_1905" data-name="Rectangle 1905" width="2" height="14" rx="1" transform="translate(19 9)" fill="#fff"/>
+  </g>
+</svg>

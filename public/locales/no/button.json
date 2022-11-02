@@ -1,0 +1,33 @@
+{
+  "btn": {
+    "add": "Legge til",
+    "add_new_customer": "Legg til nye kunder",
+    "cancel": "Avbryt",
+    "cancel_edit": "Vil du avbryte redigeringen?",
+    "delete": "Slett",
+    "download": "Nedlasting",
+    "edit": "Redigere",
+    "more": "More",
+    "reject": "Reject",
+    "submit": "Sende inn",
+    "view": "Utsikt",
+    "login": "Logg Inn",
+    "setting": "Setting",
+    "email": "E-post",
+    "export": "Eksport",
+    "import": "Import",
+    "print": "Print",
+    "refund": "Refund",
+    "save": "Lagre",
+    "share": "Share",
+    "update": "Update",
+    "remove": "Ta vekk",
+    "confirm": "Bekrefte",
+    "view-on-map": "Se på kart",
+    "search": "Søk",
+    "Add_new_delivery": "Legg til nytt leveringsgebyr",
+    "reset": "Nullstille",
+    "yes": "Ja",
+    "no": "Nei"
+  }
+}

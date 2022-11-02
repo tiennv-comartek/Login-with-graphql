@@ -1,0 +1,14 @@
+{
+  "about-us": "Om oss",
+  "terms": "Vilkår",
+  "policy": "Retningslinjer",
+  "form": {
+    "title": "Tittel",
+    "description": "Beskrivelse",
+    "content": "Innhold"
+  },
+  "placeholder": {
+    "title": "Skriv inn tittel her....",
+    "description": "Skriv inn beskrivelse her...."
+  }
+}

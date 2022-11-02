@@ -1,0 +1,14 @@
+{
+  "about-us": "About Us",
+  "terms": "Terms",
+  "policy": "Policies",
+  "form": {
+    "title": "Title",
+    "description": "Description",
+    "content": "Content"
+  },
+  "placeholder": {
+    "title": "Type title here....",
+    "description": "Type description here...."
+  }
+}

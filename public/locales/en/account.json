@@ -1,0 +1,38 @@
+{
+  "admin-management": {
+    "admin": "Admin",
+    "page-header": "Admin",
+    "name": "Name",
+    "search": "Search",
+    "password": "Password",
+    "new": "New",
+    "general-information": "General Information",
+    "create-admin": "Create Admin",
+    "edit-admin": "Edit Admin",
+    "no": "No",
+    "full-name": "Full Name",
+    "email": "Email",
+    "number-phone": "Phone Number",
+    "address": "Address",
+    "action": "Action",
+    "total-spend": "Total Spend",
+    "last-visit": "Last Visit",
+    "isLoyal": "Loyal",
+    "placeholder": {
+      "enter-name": "Enter name....",
+      "enter-email": "Enter email....",
+      "enter-password": "Enter password....",
+      "enter-number-phone": "Enter number phone....",
+      "enter-address": "Enter address....",
+      "enter-type": "Enter type"
+    },
+    "notify": {
+      "delete-admin": "Delete Admin",
+      "mess_delete": "Do you want to delete this admin ? ",
+      "mess_delete_many": "Do you want to delete these admin ? ",
+      "ok": "Ok",
+      "mess_create_admin": "Do you want cancel create new admin ?",
+      "mess_edit_admin": "Do you want cancel edit new admin ?"
+    }
+  }
+}

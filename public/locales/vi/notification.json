@@ -1,0 +1,30 @@
+{
+  "yes": "Có",
+  "no": "Không",
+  "delete_confirm": "Bạn muốn xóa?",
+  "cancel-add-admin": "Hủy thêm người dùng",
+  "cancel-edit-admin": "Hủy chỉnh sửa người dùng",
+  "error": {
+    "error": "Lỗi",
+    "field_required": "Trường này là bắt buộc",
+    "field_email": "Định dạng email không hợp lệ",
+    "field_fullname": " Định dạng tên không hợp lệ",
+    "field_phone_number": "Độ dài hoặc định dạng số điện thoại không đúng",
+    "postal_code": "Mã bưu điện phải là một số sê-ri (4 hoặc 6 ký tự)",
+    "sale_price_mess": "Giá khuyến mãi phải nhỏ hơn giá gốc!",
+    "product_number_existed": "Số sản phẩm đã tồn tại",
+    "duplicated_shop_name": "Tên cửa hàng trùng lặp",
+    "duplicated_client_domain": "Tên miền khách hàng trùng lặp",
+    "duplicated_cms_domain": "Tên miền CMS trùng lặp",
+    "duplicated_name_or_phone": "Tên hoặc số điện thoại đã tồn tại",
+    "image": "Hình ảnh là bắt buộc",
+    "max_length_100": "Độ dài không được vượt quá 100 ký tự",
+    "must_be_positive": "Trường này phải là một số dương",
+    "Invalid": "Không đúng định dạng!",
+    "invalid_domain": "Định dạng tên miền không hợp lệ!"
+  },
+  "success": "Thành công",
+  "success_update": "Cập nhật thành công!",
+  "error_update": "Cập nhật không thành công!",
+  "remove_success": "Xóa thành công"
+}

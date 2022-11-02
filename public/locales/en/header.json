@@ -1,0 +1,24 @@
+{
+  "role_text": {
+    "admin": "Admin",
+    "super-admin": "Supper admin",
+    "staff": "staff"
+  },
+  "profile": {
+    "change-password": "Change Password",
+    "logout": "Logout"
+  },
+  "notification": {
+    "notifications": "Notifications",
+    "mark_all_as_read": "Mark all as read",
+    "view_all_notifications": "View all notifications",
+    "order": "Order",
+    "is": "is",
+    "DONE_ORDER": "finished",
+    "CONFIRMED_ORDER": "confirmed",
+    "CANCELED_ORDER": "cancelled",
+    "ago": "ago",
+    "new-order": "Order {{orderNumber}} is {{status}}.",
+    "new-order-invoice": "Order Invoice {{orderNumber}} is created."
+  }
+}

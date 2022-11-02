@@ -1,0 +1,58 @@
+{
+  "title": "Orders",
+  "confirm": "Confirmed",
+  "name_not_found": "Can't not find customer name",
+  "method_not_found": "Can't not find delivery method",
+  "confirmed": "Confirmed",
+  "delivery": "Delivery",
+  "done": "Done",
+  "something_wrong": "Không tìm thấy phương thức giao hàng",
+  "cancel_order": "Cancel order",
+  "filter": {
+    "orderNumber": "Order Number",
+    "paymentMethod": "Select payment method",
+    "paymentStatus": "Select status",
+    "search": "Search"
+  },
+  "table": {
+    "orderNumber": "Order Number",
+    "customer": "Customer",
+    "phone": "Phone",
+    "paymentMethod": "Payment method",
+    "orderTime": "Order Time",
+    "orderTotal": "Order total (NOK)",
+    "status": "Status",
+    "action": "Action"
+  },
+  "detail": {
+    "title": "Order details",
+    "draft": "Draft",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "delivery": "Delivery",
+    "cancelled": "Cancelled",
+    "done": "Done",
+    "orderNumber": "Order Number",
+    "customerInformation": "Customer information",
+    "address": "Address",
+    "phone": "Phone",
+    "paymentMethod": "Payment Method",
+    "paymentStatus": "Payment Status",
+    "deliveryMethod": "Delivery method",
+    "shippingFee": "Shipping Fee (NOK)",
+    "estimatedDelivery": "Estimated Delivery",
+    "image": "Image",
+    "productName": "Name",
+    "quantity": "Quantity",
+    "unitPrice": "Unit Price (NOK)",
+    "total": "Total (NOK)",
+    "subtotal": "Subtotal",
+    "changeStatus": "Change status",
+    "pickUpAtStore": "Pick up at store"
+  },
+  "print": {
+    "sales-receipt": "Sales receipt",
+    "qty-des": "QTY Description",
+    "total": "Total"
+  }
+}

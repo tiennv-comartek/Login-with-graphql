@@ -1,0 +1,14 @@
+{
+  "about-us": "Về chúng tôi",
+  "terms": "Điều khoản",
+  "policy": "Chính sách",
+  "form": {
+    "title": "Tiêu đề",
+    "description": "Sự mô tả",
+    "content": "Nội dung"
+  },
+  "placeholder": {
+    "title": "Nhập tiêu đề tại đây....",
+    "description": "Nhập mô tả ở đây...."
+  }
+}

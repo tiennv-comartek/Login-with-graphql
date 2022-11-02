@@ -1,0 +1,41 @@
+{
+  "store": "Cửa hàng",
+  "form": {
+    "branches": "chi nhánh",
+    "delivery_fee": "Phí giao hàng",
+    "tax_config": "cấu hình thuế",
+    "address": "Địa chỉ nhà ",
+    "mobile": "Di động",
+    "email": "E-mail",
+    "add_new_branch": "Thêm chi nhánh mới...",
+    "postalCode": "Mã bưu điện",
+    "tax": "Thuế"
+  },
+  "from": "Từ",
+  "to": "Đến",
+  "shipping_fee": "Phí vận chuyển",
+  "min_order_total": "Tổng đơn hàng tối thiểu",
+  "estimate_delivery_working_day": "Dự kiến giao hàng (Ngày làm việc)",
+  "action": "Hoạt động",
+  "all_product_prices_inclusive_tax": "Tất cả giá sản phẩm chưa bao gồm thuế",
+  "add_new_branch": "Thêm chi nhánh mới",
+  "headquarters": "Trụ sở chính",
+  "placeholder": {
+    "enter_tax": "Nhập thuế...",
+    "address": "Nhập địa chỉ tại đây...",
+    "email": "Nhập email vào đây...",
+    "mobile": "Nhập số điện thoại di động vào đây...",
+    "postal_code": "Nhập mã bưu điện tại đây...",
+    "from": "Từ....",
+    "to": "Đến....",
+    "shipping_fee": "Phí vận chuyển....",
+    "min_order_total": "Tổng đơn hàng tối thiểu....",
+    "estimate_delivery_working_day": "Dự kiến giao hàng (Ngày làm việc)...."
+  },
+  "modal": {
+    "delete_branch_title": "Xóa chi nhánh",
+    "delete_branch_confirm": "Bạn có chắc chắn muốn xóa chi nhánh này không?",
+    "delete_fee_title": "Bỏ phí giao hàng",
+    "delete_fee_confirm": "Bạn có chắc chắn muốn bỏ phí giao hàng này không?"
+  }
+}

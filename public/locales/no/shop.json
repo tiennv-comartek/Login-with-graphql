@@ -1,0 +1,39 @@
+{
+  "shop": "Butikk",
+  "create": "Skape",
+  "remove": "Fjern butikken",
+  "confirm_remove": "Er du sikker på at du vil fjerne denne butikken?",
+  "edit": "Redigere",
+  "assign_admin_to_shop": "Tildel administrator til butikken",
+  "available_admin": "Tilgjengelig admin",
+  "search": "Søk",
+  "open-link": "Åpne lenken på annen fane",
+  "title": {
+    "name_domain": "Butikknavn og domenenavn",
+    "media": "Media",
+    "admin": "Administratorer",
+    "general_info": "Generell informasjon"
+  },
+  "form": {
+    "client_domain": "Kundens domenenavn",
+    "cms_domain": "CMS-domenenavn",
+    "name": "Butikknavn",
+    "logo": "Logo",
+    "background": "Bakgrunn"
+  },
+  "placeholder": {
+    "client_domain": "Skriv inn klientdomene her...",
+    "cms_domain": "Skriv inn CMS-domene her...",
+    "name": "Skriv inn butikknavn..."
+  },
+  "btn": {
+    "add_new_shop": "Legg til ny butikk"
+  },
+  "table": {
+    "no": "Nei",
+    "name": "Navn",
+    "client_domain": "Kundens domenenavn",
+    "cms_domain": "CMS-domenenavn",
+    "action": "Handling"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "admin-management": {
+    "admin": "Tài Khoản",
+    "page-header": "Tài Khoản",
+    "name": "Tên",
+    "search": "Tìm Kiếm",
+    "password": "Mật Khẩu",
+    "new": "Tạo Mới",
+    "general-information": "Thông Tin Chung",
+    "create-admin": "Tạo Tài Khoản",
+    "no": "STT",
+    "full-name": "Họ Và Tên",
+    "email": "Email",
+    "number-phone": "Số Điện Thoại",
+    "address": "Địa Chỉ",
+    "action": "Action",
+    "total-spend": "Tổng Chi Tiêu",
+    "last-visit": "Lần truy cập trước",
+    "isLoyal": "Loyal",
+    "placeholder": {
+      "enter-name": "Nhập Tên....",
+      "enter-email": "Nhập Email....",
+      "enter-password": "Nhập Mật Khẩu....",
+      "enter-number-phone": "Nhập Số Điện Thoại....",
+      "Customer name....": "Tên Khách Hàng....",
+      "Choose": "Chọn",
+      "enter-address": "Nhập Địa Chỉ...."
+    },
+    "notify": {
+      "delete-admin": "Xóa tài khoản",
+      "mess_delete": "Bạn có muốn xóa tài khoản này không ? ",
+      "mess_delete_many": "Bạn có muốn xóa những quản trị viên này không ? ",
+      "ok": "Đồng ý",
+      "mess_create_admin": "Bạn có muốn hủy tạo mới tài khoản này không ?",
+      "mess_edit_admin": "Bạn có muốn hủy chỉnh sửa tài khoản này không ?"
+    }
+  }
+}

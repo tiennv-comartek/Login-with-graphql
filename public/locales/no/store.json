@@ -1,0 +1,41 @@
+{
+  "store": "Butikk",
+  "form": {
+    "branches": "grener",
+    "delivery_fee": "leveringsgebyr",
+    "tax_config": "skattekonfig",
+    "address": "Adresse ",
+    "mobile": "Mobil",
+    "email": "E-post",
+    "add_new_branch": "Legg til ny filial...",
+    "postalCode": "Postnummer",
+    "tax": "Avgift"
+  },
+  "from": "Fra (km)",
+  "to": "Til (km)",
+  "shipping_fee": "Fraktkostnad (NOK)",
+  "min_order_total": "Min ordre totalt (NOK)",
+  "estimate_delivery_working_day": "Estimert levering (arbeidsdag)",
+  "action": "Handling",
+  "all_product_prices_inclusive_tax": "Alle produktpriser er eksklusive avgifter",
+  "add_new_branch": "Legg til ny filial",
+  "headquarters": "Legg til ny filial",
+  "placeholder": {
+    "enter_tax": "Skriv inn skatt...",
+    "address": "Skriv inn adressen her...",
+    "email": "Skriv inn e-post her...",
+    "mobile": "Skriv inn mobilnummer her...",
+    "postal_code": "Skriv inn postnummer her...",
+    "from": "Fra....",
+    "to": "Til....",
+    "shipping_fee": "Fraktkostnad....",
+    "min_order_total": "Min ordre totalt....",
+    "estimate_delivery_working_day": "Estimert levering (arbeidsdag)...."
+  },
+  "modal": {
+    "delete_branch_title": "Slett filial",
+    "delete_branch_confirm": "Er du sikker på at du vil slette denne grenen?",
+    "delete_fee_title": "Fjern leveringsgebyr",
+    "delete_fee_confirm": "Er du sikker på at du vil fjerne denne leveringsavgiften?"
+  }
+}

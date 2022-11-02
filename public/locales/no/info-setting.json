@@ -1,0 +1,18 @@
+{
+  "setting-info": "Setting Info",
+  "form": {
+    "name": "Name",
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "map": "Map"
+  },
+  "notification": {
+    "notification": "Notification",
+    "warning": "Warning",
+    "success-update": "Success updated",
+    "error-update": "Failed update",
+    "confirm_delete": "Do you want to delete this address?",
+    "confirm_delete_title": "Delete this address?"
+  }
+}

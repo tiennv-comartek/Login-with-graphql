@@ -1,0 +1,41 @@
+{
+  "store": "Store",
+  "form": {
+    "branches": "branches",
+    "delivery_fee": "delivery fee",
+    "tax_config": "tax config",
+    "address": "Address ",
+    "mobile": "Mobile",
+    "email": "Email",
+    "add_new_branch": "Add new branch...",
+    "postalCode": "Postal Code",
+    "tax": "Tax"
+  },
+  "from": "From (km)",
+  "to": "To (km)",
+  "shipping_fee": "Shipping fee (NOK)",
+  "min_order_total": "Min Order total (NOK)",
+  "estimate_delivery_working_day": "Estimated delivery (Working day)",
+  "action": "Handling",
+  "all_product_prices_inclusive_tax": "All product prices are exclusive of tax",
+  "add_new_branch": "Add new branch",
+  "headquarters": "Headquarters",
+  "placeholder": {
+    "enter_tax": "Enter tax...",
+    "address": "Type address here...",
+    "email": "Type email here...",
+    "mobile": "Type mobile phone number here...",
+    "postal_code": "Type postal code here...",
+    "from": "From....",
+    "to": "To....",
+    "shipping_fee": "Shipping fee....",
+    "min_order_total": "Min Order total....",
+    "estimate_delivery_working_day": "Estimated delivery (Working day)...."
+  },
+  "modal": {
+    "delete_branch_title": "Delete branch",
+    "delete_branch_confirm": "Are you sure to want to delete this branch?",
+    "delete_fee_title": "Remove delivery fee",
+    "delete_fee_confirm": "Are you sure to want to remove this delivery fee?"
+  }
+}

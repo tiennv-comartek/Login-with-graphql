@@ -1,0 +1,43 @@
+{
+    "title": "Trang tổng quan",
+    "seeMore": "Xem thêm",
+    "total": {
+        "dailyRevenue": "Doanh thu hàng ngày (NOK)",
+        "user": "Người dùng",
+        "orders": "Đơn đặt hàng",
+        "products": "Sản phẩm"
+    },
+    "orders": {
+        "title": "Đơn đặt hàng mới nhất",
+        "orderNumber": "Số Đơn hàng",
+        "customer": "Khách hàng",
+        "phone": "Điện thoại",
+        "paymentMethod": "Phương thức thanh toán",
+        "orderTime": "Thời gian đặt hàng",
+        "orderTotal": "Tổng đơn đặt hàng (NOK)",
+        "status": "Trạng thái",
+        "action": "Hành động"
+    },
+    "admin": {
+        "title": "Người dùng mới",
+        "customer": "Khách hàng",
+        "phone": "Số điện thoại",
+        "email": "Email"
+    },
+    "sales": {
+        "title": "Sản phẩm bán chạy"
+    },
+    "revenue": {
+        "title": "Doanh thu",
+        "week": "Tuần",
+        "month": "Tháng",
+        "year": "Năm",
+        "dayOfWeek1": "Thứ Hai",
+        "dayOfWeek2": "Thứ Ba",
+        "dayOfWeek3": "Thứ Tư",
+        "dayOfWeek4": "Thứ Năm",
+        "dayOfWeek5": "Thứ Sáu",
+        "dayOfWeek6": "Thứ Bảy",
+        "dayOfWeek7": "Chủ nhật"
+    }
+}

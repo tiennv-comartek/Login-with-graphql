@@ -1,0 +1,33 @@
+{
+  "btn": {
+    "add": "Thêm",
+    "add_new_customer": "Thêm mới khách hàng",
+    "cancel": "Hủy",
+    "cancel_edit": "Hủy chỉnh sửa?",
+    "delete": "Xóa",
+    "download": "Tải về",
+    "edit": "Chỉnh sửa",
+    "more": "Thêm",
+    "reject": "Từ chối",
+    "submit": "Xác nhận",
+    "view": "Xem",
+    "login": "Đăng nhập",
+    "setting": "Cài đặt",
+    "email": "Email",
+    "export": "Xuất",
+    "import": "Import",
+    "print": "In",
+    "refund": "Hoàn tả",
+    "save": "Lưu",
+    "share": "Chia sẻ",
+    "update": "Cập nhật",
+    "remove": "Xóa",
+    "confirm": "Xác nhận",
+    "view-on-map": "Xem",
+    "search": "Tìm kiếm",
+    "Add_new_delivery": "Thêm phí giao hàng",
+    "reset": "Làm trống",
+    "yes": "ĐỒNG Ý",
+    "no": "KHÔNG"
+  }
+}

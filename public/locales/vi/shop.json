@@ -1,0 +1,41 @@
+{
+  "shop": "Cửa hàng",
+  "create": "Tạo shop",
+  "remove": "Xóa cửa hàng",
+  "confirm_remove": "Bạn có chắc chắn để loại bỏ cửa hàng này?",
+  "edit": "Chỉnh sửa",
+  "assign_admin_to_shop": "Chỉ định quản trị viên vào cửa hàng",
+  "available_admin": "Quản trị viên có sẵn",
+  "search": "Tìm kiếm",
+  "open-link": "Mở liên kết trong cửa sổ khác",
+  "title": {
+    "name_domain": "Tên shop và tên miền",
+    "media": "Phương tiện truyền thông",
+    "admin": "Quản trị viên",
+    "general_info": "Thông tin chung"
+  },
+  "form": {
+    "client_domain": "Tên miền khách hàng",
+    "cms_domain": "Tên miền CMS",
+    "name": "Tên cửa hàng",
+    "logo": "Logo",
+    "background": "Ảnh nền"
+  },
+  "placeholder": {
+    "client_domain": "Nhập miền khách hàng tại đây...",
+    "cms_domain": "Nhập miền CMS tại đây...",
+    "name": "Nhập tên cửa hàng...",
+    "logo": "Logo",
+    "background": "Ảnh nền"
+  },
+  "btn": {
+    "add_new_shop": "Thêm cửa hàng mới"
+  },
+  "table": {
+    "no": "STT",
+    "name": "Tên",
+    "client_domain": "Tên miền khách hàng",
+    "cms_domain": "Tên miền CMS",
+    "action": "Hành động"
+  }
+}

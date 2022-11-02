@@ -1,0 +1,8 @@
+{
+  "shipping": "Shipping",
+  "form": {
+    "Client_ID": "Client ID",
+    "Client_secret": "Client secret",
+    "Merchant_ID": "Merchant ID"
+  }
+}

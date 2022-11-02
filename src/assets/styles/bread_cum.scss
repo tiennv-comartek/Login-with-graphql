@@ -1,0 +1,20 @@
+.bread_cum_custom {
+  a {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #777e91;
+  }
+}
+
+.ant-breadcrumb > span:last-child {
+  color: #23262f;
+  font-weight: 500;
+}
+
+.ant-breadcrumb > span:nth-last-child(2) {
+  .ant-breadcrumb-separator {
+    color: #23262f;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="header" transform="translate(1 2)">
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(-1 -2)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(2.088 1.727)">
+      <path id="Path_12" data-name="Path 12" d="M18.909,24.546a2.418,2.418,0,0,0,2.416-2.416V17.261a.805.805,0,1,0-1.61,0V22.13a.806.806,0,0,1-.805.805H4.416a.806.806,0,0,1-.805-.805V4.416a.806.806,0,0,1,.805-.805H18.909a.806.806,0,0,1,.805.805v.873a.805.805,0,1,0,1.61,0V4.416A2.418,2.418,0,0,0,18.909,2H4.416A2.418,2.418,0,0,0,2,4.416V22.13a2.418,2.418,0,0,0,2.416,2.416Z" transform="translate(-2 -2)" fill="#fff"/>
+      <path id="Path_15" data-name="Path 15" d="M11.093,8.546a2.546,2.546,0,1,0-2.546,2.546,2.546,2.546,0,0,0,2.546-2.546ZM8.546,9.961A1.415,1.415,0,1,1,9.961,8.546,1.415,1.415,0,0,1,8.546,9.961Z" transform="translate(-1.702 -2.507)" fill="#fff"/>
+      <path id="Path_1956" data-name="Path 1956" d="M3.351,20.855,8.3,15.516l5.183,6.653,2.637-3.145,4.548,5.491" transform="translate(-2.263 -4.633)" fill="none" stroke="#fff" stroke-width="1.5"/>
+    </g>
+    <path id="Path_1958" data-name="Path 1958" d="M74.843,34.5V32.191l7.936-7.936L85.2,26.679l-6.529,6.529-1.3,1.3Z" transform="translate(-57.582 -20.691)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "loginSetting": "Sosial for pålogging",
+  "with_faceBook": "Logg inn med Facebook",
+  "with_google": "Logg på med Google",
+  "with_VIP": "Logg inn med VIPPS",
+  "chat_with_page": "Facebook Messenger",
+  "": "",
+  "": "",
+  "": "",
+  "placeholder": {
+    "appId": "App ID",
+    "secretKey": "Hemmelig nøkkel",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID"
+  },
+  "form": {
+    "appId": "App ID",
+    "secretKey": "Hemmelig nøkkel",
+    "appIdPage": "App ID Page",
+    "pageId": "Page ID",
+    "clientId": "Client ID",
+    "clientIdFaceBook": "Client ID Facebook"
+  }
+}

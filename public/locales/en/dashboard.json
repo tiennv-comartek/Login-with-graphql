@@ -1,0 +1,43 @@
+{
+    "title": "Dashboard",
+    "seeMore": "See more",
+    "total": {
+        "dailyRevenue": "Daily revenue (NOK)",
+        "user": "User",
+        "orders": "Orders",
+        "products": "Products"
+    },
+    "orders": {
+        "title": "Lastest orders",
+        "orderNumber": "Order Number",
+        "customer": "Customer",
+        "phone": "Phone",
+        "paymentMethod": "Payment method",
+        "orderTime": "Order Time",
+        "orderTotal": "Order total (NOK)",
+        "status": "Status",
+        "action": "Action"
+    },
+    "admin": {
+        "title": "New users",
+        "customer": "Customer",
+        "phone": "Phone number",
+        "email": "Email"
+    },
+    "sales": {
+        "title": "Product Sales"
+    },
+    "revenue": {
+        "title": "Revenue",
+        "week": "Week",
+        "month": "Month",
+        "year": "Year",
+        "dayOfWeek1": "Monday",
+        "dayOfWeek2": "Tuesday",
+        "dayOfWeek3": "Wednesday",
+        "dayOfWeek4": "Thursday",
+        "dayOfWeek5": "Friday",
+        "dayOfWeek6": "Saturday",
+        "dayOfWeek7": "Sunday"
+    }
+}

@@ -1,0 +1,46 @@
+@import './variable.scss';
+@import './mixin.scss';
+@import './form.scss';
+@import './table.scss';
+@import './color.scss';
+@import './tabs.scss';
+@import './modal.scss';
+@import './bread_cum.scss';
+@import './button.scss';
+@import './custom.scss';
+@import './filter.scss';
+
+@import './pagination.scss';
+
+@import './dotdotdot.scss';
+@import './ant-steps-icon.scss';
+
+.break-all {
+  word-break: break-all;
+}
+
+.ant-table-cell-fix-left,
+.ant-table-cell-fix-right {
+  background: #fcfcfd;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f8000096;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f8000096;
+}

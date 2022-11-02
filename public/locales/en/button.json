@@ -1,0 +1,33 @@
+{
+  "btn": {
+    "add": "Add",
+    "add_new_customer": "Add new customers",
+    "cancel": "Cancel",
+    "cancel_edit": "Cancel editing?",
+    "delete": "Delete",
+    "download": "Download",
+    "edit": "Edit",
+    "more": "More",
+    "reject": "Reject",
+    "submit": "Submit",
+    "view": "View",
+    "login": "Login",
+    "setting": "Setting",
+    "email": "Email",
+    "export": "Export",
+    "import": "Import",
+    "print": "Print",
+    "refund": "Refund",
+    "save": "Save",
+    "share": "Share",
+    "update": "Update",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "view-on-map": "View on map",
+    "search": "Search",
+    "Add_new_delivery": "Add new delivery fee",
+    "reset": "Reset",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

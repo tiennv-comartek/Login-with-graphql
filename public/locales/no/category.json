@@ -1,0 +1,35 @@
+{
+  "categories": "Kategorier",
+  "category": "Kategori",
+  "add_new_category": "Legg til ny kategori",
+  "edit_category": "Rediger kategori",
+  "remove_category": "Fjern kategori",
+  "category_name": "Skriv inn kategorinavn her...",
+  "description": "Skriv inn beskrivelse her....",
+  "slug": "Skriv slug her....",
+  "form": {
+    "category_name": "Kategori navn",
+    "featured_category": "Utvalgt kategori",
+    "featured": "Utvalgte",
+    "description": "Beskrivelse",
+    "upload_image": "Last opp bilde",
+    "image": "Bilde",
+    "search": "Søk...",
+    "no": "Nei",
+    "slug": "Slug",
+    "action": "Handling"
+  },
+  "notification": {
+    "notification": "Melding",
+    "warning": "Advarsel",
+    "success-update": "Suksess oppdatert",
+    "error-update": "Mislykket oppdatering",
+    "confirm_cancel_category_content": "Er du sikker på at du vil avbryte denne kategorien ?",
+    "confirm_cancel_category": "Vil du avbryte denne kategorien?",
+    "create-success": "Skapte suksess",
+    "confirm-remove-category": "Er du sikker på at du vil fjerne denne kategorien ?"
+  },
+  "error": {
+    "required": "Denne informasjonen er påkrevd !"
+  }
+}

@@ -1,0 +1,53 @@
+.modal_confirm_custom {
+  width: 336px !important;
+
+  .ant-modal-body {
+    padding: 32px;
+    .content_modal {
+      text-align: center;
+      letter-spacing: 0px;
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #23262f;
+      }
+      .content {
+        color: #777e91;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal_map_view {
+  width: 731px !important;
+  height: 80vh;
+  max-height: 527px;
+  .ant-modal-content,
+  .ant-modal-body {
+    height: 100%;
+  }
+  .ant-modal-body {
+    padding: 0px;
+    .container_view {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      .btn-close {
+        cursor: pointer;
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #666666;
+      }
+    }
+  }
+}

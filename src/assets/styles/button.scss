@@ -1,0 +1,232 @@
+@import '@assets/styles/variable.scss';
+
+.btn-edit {
+  border-radius: 5px;
+  width: 115px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0;
+  height: 45px;
+  font-weight: bold;
+}
+
+.bdb-2 {
+  border-bottom: 2px solid #ffffff;
+}
+
+.btn-submit {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  padding: 0px 30px;
+}
+
+.btn-table-add {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  border: 1px solid #f80000;
+  border-radius: 5px;
+  padding: 0px 30px;
+  color: #f80000;
+}
+
+.btn_download_link {
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #f80000;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.input-address-map {
+  position: relative;
+  input {
+    padding-right: 125px;
+  }
+  .view_map {
+    justify-content: flex-end;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 14px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    p {
+      margin-bottom: 0px;
+      color: #0072f5;
+      font-size: 16px;
+      letter-spacing: 0px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.btn-edit-icon {
+  width: 40px;
+  height: 40px;
+  background: #09b530;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  cursor: pointer;
+  &:hover {
+    background: #3cf667;
+  }
+}
+
+.btn-delete-icon {
+  width: 40px;
+  height: 40px;
+  background: $colorActive;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  cursor: pointer;
+  &:hover {
+    background: #ff3d3d;
+  }
+}
+
+.btn-preview-icon {
+  width: 40px;
+  height: 40px;
+  background: #ff8d0e;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  cursor: pointer;
+  &:hover {
+    background: #ffb25b;
+  }
+}
+
+.ant-btn {
+  cursor: pointer;
+}
+
+.btn-custom {
+  min-width: 110px;
+}
+
+.ant-popover-buttons {
+  .ant-btn {
+    min-width: unset;
+  }
+}
+
+.btn-save {
+  font-size: 16px;
+  background-color: $primaryColor;
+  border: 0;
+  color: $colorWhite;
+  &:active,
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: $primaryColor;
+  }
+  &.disable {
+    background-color: #b1b5c4;
+    pointer-events: none;
+  }
+}
+
+.btn-cancel {
+  background: $mainColor 0% 0% no-repeat padding-box;
+  border: 1px solid $primaryColor;
+  font-size: 16px;
+  color: $primaryColor;
+}
+
+.btn-import,
+.btn-export {
+  background: $mainColor 0% 0% no-repeat padding-box;
+  font-size: 16px;
+  border: 1px solid $primaryColor;
+  color: $primaryColor;
+}
+
+.btn-import:focus,
+.btn-export:focus {
+  border: 1px solid $primaryColor;
+  color: $primaryColor;
+}
+
+.btn-export {
+  span:first-child {
+    transform: rotate(-90deg);
+  }
+}
+
+.btn-import {
+  line-height: 20px;
+  transition: none;
+  span:first-child {
+    transform: rotate(-90deg);
+  }
+}
+
+.btn-search {
+  background: $primaryColor;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  color: $colorWhite;
+}
+
+.btn-search:hover,
+.btn-search:focus {
+  color: $colorWhite;
+  background: $primaryColor;
+}
+
+.btn-reset {
+  width: 120px;
+  height: 48px;
+  margin-right: 30px;
+  border-radius: 5px;
+  background-color: $mainColor;
+  border: 1px solid #2c3a57;
+}
+
+.btn-delete2 {
+  color: #f80000;
+
+  &[ant-click-animating-without-extra-node='true']::after,
+  .ant-click-animating-node {
+    box-shadow: none !important;
+  }
+}
+
+.btn-gen-coupon {
+  background-color: #09b530;
+  color: $mainColor;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 16px;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-gen-coupon:hover {
+  background-color: #3dcb5e;
+  color: $mainColor;
+}
+.btn-gen-coupon:focus {
+  background-color: #09b530;
+  color: $mainColor;
+}

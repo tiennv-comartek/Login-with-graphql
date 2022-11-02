@@ -1,0 +1,24 @@
+{
+  "review": "Xem đánh giá",
+  "review_setting": "Xem lại Cài đặt",
+  "review_by_products": {
+    "header": "Đánh giá theo sản phẩm",
+    "search": "Tìm kiếm theo sản phẩm",
+    "id": "Id",
+    "image": "Hình ảnh",
+    "name": "Tên",
+    "rating": "Xếp hạng",
+    "action": "Hành động",
+    "viewDetails": "Xem chi tiết"
+  },
+  "review_detail": {
+    "title": "Chi tiết đánh giá",
+    "comments": "nhận xét",
+    "sort_by": "Sắp xếp theo",
+    "newest": "Mới nhất",
+    "stars": "đánh giá",
+    "anonymous": "Ẩn danh",
+    "noItem": "Sản phẩm này chưa có bất kỳ bài đánh giá nào",
+    "no": "STT"
+  }
+}

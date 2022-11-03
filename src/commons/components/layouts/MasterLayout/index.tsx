@@ -16,7 +16,7 @@ import { setTitle } from '@helpers/dom';
 import { Avatar, Button, Dropdown, Image, Layout, Menu, Space } from 'antd';
 import 'antd/dist/antd.css';
 
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { renderRoutes } from 'react-router-config';
 import { Link } from 'react-router-dom';
 import './style.scss';
@@ -43,7 +43,7 @@ const MasterLayout = (props: any) => {
   );
 
   return (
-    <>
+    <Fragment>
       <Layout className="master-layout">
         <Layout className=" master-header">
           <Sider width={250} trigger={null} collapsible collapsed={collapsed}>
@@ -130,7 +130,7 @@ const MasterLayout = (props: any) => {
           </Layout>
         </Layout>
       </Layout>
-    </>
+    </Fragment>
   );
 };
 

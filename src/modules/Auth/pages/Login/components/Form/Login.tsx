@@ -4,7 +4,7 @@ import logo1 from '@assets/images/logo1.png';
 import useLogin from '@modules/Auth/hooks/useLogin';
 import { Button, Card, Checkbox, Col, Dropdown, Form, Image, Input, Layout, Menu, Row, Space } from 'antd';
 import 'antd/dist/antd.css';
-import React from 'react';
+import React, { Fragment } from 'react';
 import './style.scss';
 
 const menu = <Menu />;
@@ -19,7 +19,7 @@ const Login = (props: any) => {
   };
 
   return (
-    <>
+    <Fragment>
       <Layout className="page_login">
         <div className="language">
           <Row justify="end">
@@ -89,7 +89,7 @@ const Login = (props: any) => {
           </Row>
         </div>
       </Layout>
-    </>
+    </Fragment>
   );
 };
 
